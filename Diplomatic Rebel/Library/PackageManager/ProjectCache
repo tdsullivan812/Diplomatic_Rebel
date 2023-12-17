@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638382712171849612
-    m_Hash: 446155549
+      ticks: 638383766906294484
+    m_Hash: 632853250
   m_LockFileStatus:
     m_FilePath: C:/Users/tdsul/Unity Projects/Diplomatic Rebel/Diplomatic Rebel/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638382712209839063
-    m_Hash: 4223897885
+      ticks: 638383766906294484
+    m_Hash: 1325029779
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
