@@ -1,0 +1,4 @@
+Test Dialogue Mushroom: Now we're having a conversation.
+Test Dialogue Mushroom: It's just like the dialogue that appeared earlier, but we loaded it from a single text file.
+Test Dialogue Mushroom: This will be really convenient for iterating upon the dialogue script:
+Test Dialogue Mushroom: Just edit the dialogue file, save it, and our Fungus blocks will automatically read the updated dialogue.

@@ -15,7 +15,7 @@ C:/Users/tdsul/Unity Projects/Diplomatic Rebel/Diplomatic Rebel
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54212
+56786
 Successfully changed project path to: C:/Users/tdsul/Unity Projects/Diplomatic Rebel/Diplomatic Rebel
 C:/Users/tdsul/Unity Projects/Diplomatic Rebel/Diplomatic Rebel
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/tdsul/Unity Projects/Diplomatic Rebel/Diplomatic Rebel
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24404] Host "[IP] 192.168.1.181 [Port] 0 [Flags] 2 [Guid] 54346382 [EditorId] 54346382 [Version] 1048832 [Id] WindowsEditor(7,Main_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [68080] Host "[IP] 192.168.3.40 [Port] 0 [Flags] 2 [Guid] 3085443913 [EditorId] 3085443913 [Version] 1048832 [Id] WindowsEditor(7,Main_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24404] Host "[IP] 192.168.1.181 [Port] 0 [Flags] 2 [Guid] 54346382 [EditorId] 54346382 [Version] 1048832 [Id] WindowsEditor(7,Main_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [68080] Host "[IP] 192.168.3.40 [Port] 0 [Flags] 2 [Guid] 3085443913 [EditorId] 3085443913 [Version] 1048832 [Id] WindowsEditor(7,Main_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 19 workers.
-Refreshing native plugins compatible for Editor in 7.75 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 6.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.15f1 (b58023a2b463)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.3.15f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -78,8 +78,8 @@ Register platform support module: C:/Program Files/Unity 2022.3.15f1/Editor/Data
 Register platform support module: C:/Program Files/Unity 2022.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2022.3.15f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity 2022.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.007533 seconds.
-- Loaded All Assemblies, in  0.312 seconds
+Registered in 0.006461 seconds.
+- Loaded All Assemblies, in  0.244 seconds
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
@@ -88,36 +88,36 @@ Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.285 seconds
-Domain Reload Profiling: 596ms
-	BeginReloadAssembly (89ms)
+- Finished resetting the current domain, in  0.221 seconds
+Domain Reload Profiling: 464ms
+	BeginReloadAssembly (77ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (135ms)
-		LoadAssemblies (88ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (97ms)
+		LoadAssemblies (76ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (132ms)
-			TypeCache.Refresh (131ms)
-				TypeCache.ScanAssembly (118ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (84ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (285ms)
+	FinalizeReload (222ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (235ms)
+		SetupLoadedEditorAssemblies (181ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (96ms)
+			InitializePlatformSupportModulesInManaged (75ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (95ms)
-			ProcessInitializeOnLoadMethodAttributes (39ms)
+			BeforeProcessingInitializeOnLoad (1ms)
+			ProcessInitializeOnLoadAttributes (72ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -125,8 +125,8 @@ Domain Reload Profiling: 596ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.535 seconds
-Refreshing native plugins compatible for Editor in 3.77 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.405 seconds
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -143,47 +143,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.500 seconds
-Domain Reload Profiling: 1032ms
-	BeginReloadAssembly (153ms)
+- Finished resetting the current domain, in  0.479 seconds
+Domain Reload Profiling: 882ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (8ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (36ms)
-	LoadAllAssembliesAndSetupDomain (305ms)
-		LoadAssemblies (264ms)
+		CreateAndSetChildDomain (15ms)
+	RebuildCommonClasses (21ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (203ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (105ms)
-				TypeCache.ScanAssembly (91ms)
-			ScanForSourceGeneratedMonoScriptInfo (14ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (501ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (85ms)
+				TypeCache.ScanAssembly (73ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (479ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (353ms)
+		SetupLoadedEditorAssemblies (324ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (31ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (242ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (220ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3197 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 42 unused Assets / (62.3 KB). Loaded Objects now: 3651.
-Memory consumption went from 129.5 MB to 129.4 MB.
-Total: 2.771700 ms (FindLiveObjects: 0.178200 ms CreateObjectMapping: 0.082600 ms MarkObjects: 2.387700 ms  DeleteObjects: 0.121900 ms)
+Unloading 3972 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (62.0 KB). Loaded Objects now: 4427.
+Memory consumption went from 147.7 MB to 147.6 MB.
+Total: 4.437100 ms (FindLiveObjects: 0.350400 ms CreateObjectMapping: 0.250400 ms MarkObjects: 3.694300 ms  DeleteObjects: 0.140700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -200,10 +200,2026 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 343727.340602 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(7f2c382dc2c22446db59030979f6e495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Readme.asset using Guid(7f2c382dc2c22446db59030979f6e495) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8371dc46cfb2114c4794e91e8e01ebae') in 0.063829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.563935 seconds.
+  path: Assets/Fungus/Fungus.asmdef
+  artifactKey: Guid(007db7f7a4c8f944990d71603a110f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Fungus.asmdef using Guid(007db7f7a4c8f944990d71603a110f82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e90ea253671413be82a95e44dc88d5d3') in 0.005059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.899412 seconds.
+  path: Assets/Fungus/Audio/Click.wav
+  artifactKey: Guid(c18ae2c530c264a6880266d5e0a71337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Audio/Click.wav using Guid(c18ae2c530c264a6880266d5e0a71337) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd522d0af15a493e46e7ca1fdb5046376') in 0.044096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.580066 seconds.
+  path: Assets/Fungus/Audio/HighVoice.wav
+  artifactKey: Guid(774486030b696474e8b3cf7f178123da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Audio/HighVoice.wav using Guid(774486030b696474e8b3cf7f178123da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cfecf6e69029b4d43362f6b6352ad491') in 0.042866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fungus/Audio/Click2.wav
+  artifactKey: Guid(14a396b1562834718b2d52b9c4639264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Audio/Click2.wav using Guid(14a396b1562834718b2d52b9c4639264) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b0749bc072786289db618072b630f1e') in 0.039575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Docs/CHANGELOG.txt
+  artifactKey: Guid(c35cb3df0536b47ab858a7af04b14164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Docs/CHANGELOG.txt using Guid(c35cb3df0536b47ab858a7af04b14164) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c99345f90be12aa48a9a7f6fb368b4d6') in 0.003105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.811576 seconds.
+  path: Assets/Fungus/Docs/README.txt
+  artifactKey: Guid(b21045f2b204b490c8d7595b4def46fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Docs/README.txt using Guid(b21045f2b204b490c8d7595b4def46fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ca07a44afc3a04381a6ae02d97599fe') in 0.004824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.670468 seconds.
+  path: Assets/Fungus/Textures/ContinueIcon.png
+  artifactKey: Guid(226248ac6f184e448af731df91b91958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Textures/ContinueIcon.png using Guid(226248ac6f184e448af731df91b91958) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a83bfa4218ca55563094ad8a33d68a15') in 0.043638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fungus/Textures/Attribution.txt
+  artifactKey: Guid(0fb50b5d6b1c043a7b956b16c6f39aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Textures/Attribution.txt using Guid(0fb50b5d6b1c043a7b956b16c6f39aa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b623c40d5fffe4f15fe80a98b39b2fcc') in 0.004096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fungus/Textures/CreatedWith.psd
+  artifactKey: Guid(7adcbbe62d6554d81affcab2c56ad5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Textures/CreatedWith.psd using Guid(7adcbbe62d6554d81affcab2c56ad5ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2fc7a012fd0dc5dfeff1ee368775392c') in 0.017842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.824615 seconds.
+  path: Assets/Fungus/Textures/FungusLogo.png
+  artifactKey: Guid(1b656a189e6154422a74e05a56c3f245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Textures/FungusLogo.png using Guid(1b656a189e6154422a74e05a56c3f245) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b2a09c45a2889b0fa2afb40b4b4ef32') in 0.021006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Resources/Prefabs/MenuDialog.prefab
+  artifactKey: Guid(9bb64c8df70904eecac3f71f81bf339b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/MenuDialog.prefab using Guid(9bb64c8df70904eecac3f71f81bf339b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28dbbe959d153a89a2e8544e6c8e5ec9') in 0.031245 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 95
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fungus/Textures/ScriptIcon.png
+  artifactKey: Guid(c22400d5bd211479099238aaacbd4852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Textures/ScriptIcon.png using Guid(c22400d5bd211479099238aaacbd4852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '076fe2fe7e558ad703d4e94dd19b3cff') in 0.017003 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/EditorResources/Textures/command_background.png
+  artifactKey: Guid(a5c9a4271b3de4e4f86eff7f8a1bd768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/EditorResources/Textures/command_background.png using Guid(a5c9a4271b3de4e4f86eff7f8a1bd768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b8c3ef1c8d498efd0ad22b4b18d5a35') in 0.013584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Scripts/Commands/DebugBreak.cs
+  artifactKey: Guid(a14b04da97ec217478d0809feef89ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/DebugBreak.cs using Guid(a14b04da97ec217478d0809feef89ec8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '746210b1849b890d82caf0d199d9b139') in 0.003500 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Fungus/Scripts/Commands/FadeScreen.cs
+  artifactKey: Guid(207aecf668a0345388087ccf522f9957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/FadeScreen.cs using Guid(207aecf668a0345388087ccf522f9957) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd739ce31efdf6d6e9aed359197a3fbfe') in 0.003328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Fungus/Resources/Prefabs/StagePosition.prefab
+  artifactKey: Guid(7a4c270a5c18f6549a7683844dbf9f22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/StagePosition.prefab using Guid(7a4c270a5c18f6549a7683844dbf9f22) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ee97eb3a660e9ecdfde35c0f84c591c') in 0.011561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Textures/OptionButton.png
+  artifactKey: Guid(c207de86481ff7d48a2fba2fcc374723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Textures/OptionButton.png using Guid(c207de86481ff7d48a2fba2fcc374723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe2b168477d9ee8df86507ab405864c2') in 0.016783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/EditorResources/Textures/connection_point.png
+  artifactKey: Guid(f08a4c27d7efe4aa6a35348a4e8aec8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/EditorResources/Textures/connection_point.png using Guid(f08a4c27d7efe4aa6a35348a4e8aec8f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3b0ba4a08b7f3b42d5b40ba4fc09d1c') in 0.013888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf
+  artifactKey: Guid(b4e86052de8904394807b3f10e18a9f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Fonts/Amaranth/Amaranth-Italic.otf using Guid(b4e86052de8904394807b3f10e18a9f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55d2b06071c10162b5e4e1f8c12d8b93') in 0.009995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Resources/Sprites/Background.png
+  artifactKey: Guid(78bc8db714c3749cc8bd8c0b7e525b85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Sprites/Background.png using Guid(78bc8db714c3749cc8bd8c0b7e525b85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96b4f86922d21fdc278a22a21d2bc622') in 0.025075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fungus/Textures/OptionButtonHighlighted.png
+  artifactKey: Guid(888feb4a32e3b564fb7e6f9b28cc8e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Textures/OptionButtonHighlighted.png using Guid(888feb4a32e3b564fb7e6f9b28cc8e10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '979ea1d41c1a0d1caa6a598798c1cd73') in 0.014584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Resources/Prefabs/SaveData.prefab
+  artifactKey: Guid(eae76c041b933476bbe9bdd4c3d80793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/SaveData.prefab using Guid(eae76c041b933476bbe9bdd4c3d80793) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '849734e1759cc8297b62a4b6dcb1554a') in 0.005772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Resources/Prefabs/Character.prefab
+  artifactKey: Guid(b20518d45890e4be59ba82946f88026c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/Character.prefab using Guid(b20518d45890e4be59ba82946f88026c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e43fca4449cd899e45d92e95cca3b81') in 0.009927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fungus/Resources/Prefabs/FungusLogo.prefab
+  artifactKey: Guid(613b99a82fe95405db46062e1c071434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/FungusLogo.prefab using Guid(613b99a82fe95405db46062e1c071434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1daf0a3ab1c62a2ce353f4044956102c') in 0.010416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fungus/EditorResources/Textures/play_small.png
+  artifactKey: Guid(a48a2b9b06deb469d9da1777b094521b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/EditorResources/Textures/play_small.png using Guid(a48a2b9b06deb469d9da1777b094521b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c5eaf6490f8fd9e9bddcad47e332b97') in 0.012525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Fungus/Resources/Prefabs/NarrativeLogEntryDisplay.prefab
+  artifactKey: Guid(243a94cf6d8dda84f8351f4289587571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/NarrativeLogEntryDisplay.prefab using Guid(243a94cf6d8dda84f8351f4289587571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7434f3d3e86dbddbad473ee9efbc7bb0') in 0.014016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.008358 seconds.
+  path: Assets/Fungus/Scripts/Commands/End.cs
+  artifactKey: Guid(93cb9773f2ca04e2bbf7a68ccfc23267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/End.cs using Guid(93cb9773f2ca04e2bbf7a68ccfc23267) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6627d7f30a10e198a236a009424232af') in 0.003084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fungus/Resources/Prefabs/Localization.prefab
+  artifactKey: Guid(ffbd0831d997545eab75c364da082c1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/Localization.prefab using Guid(ffbd0831d997545eab75c364da082c1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b096f8561d71c7095d5e74902263463') in 0.005258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Fungus/EditorResources/Textures/play_big.png
+  artifactKey: Guid(bff2ba39f5f4448589e80522ebfcd0a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/EditorResources/Textures/play_big.png using Guid(bff2ba39f5f4448589e80522ebfcd0a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '746da85974f3cf0b98a35ad9f552235e') in 0.016325 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fungus/Scripts/Commands/ElseIf.cs
+  artifactKey: Guid(18c5e8d46183346b59f64b820e71f97f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/ElseIf.cs using Guid(18c5e8d46183346b59f64b820e71f97f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1286afe6e6d81871b58affed1aef17df') in 0.002990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fungus/EditorResources/Icons/fungus_mushroom.png
+  artifactKey: Guid(1c99c9bf7557e23469ed5dfce00504c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/EditorResources/Icons/fungus_mushroom.png using Guid(1c99c9bf7557e23469ed5dfce00504c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a3636ba94dcfaca085fbf449a9b5984') in 0.012293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Fungus/Textures/ScreenFade.png
+  artifactKey: Guid(f6c7b1f3a78a24703b70c746d8b9c768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Textures/ScreenFade.png using Guid(f6c7b1f3a78a24703b70c746d8b9c768) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f41b072a7e59824aa0a9db9425ccaf0a') in 0.015928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Scripts/Commands/DeleteSaveKey.cs
+  artifactKey: Guid(e1205d6641f2146b19d496037f937ba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/DeleteSaveKey.cs using Guid(e1205d6641f2146b19d496037f937ba0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e677aa75dcc00230ea83a8777c34e86') in 0.003492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Fungus/Scripts/Commands/ExecuteLua.cs
+  artifactKey: Guid(71f455683d4ba4405b8dbba457159620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/ExecuteLua.cs using Guid(71f455683d4ba4405b8dbba457159620) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b71bdca771a4fecbef326a11595ad379') in 0.005056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fungus/EditorResources/Icons/down.png
+  artifactKey: Guid(51a973f446c2e664582861480cce6215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/EditorResources/Icons/down.png using Guid(51a973f446c2e664582861480cce6215) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afe83bcb92e0bf626c54b28ebf64b6d8') in 0.019917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fungus/Resources/Prefabs/AudioTag.prefab
+  artifactKey: Guid(8a19432eef4e44247949edb78c590f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/AudioTag.prefab using Guid(8a19432eef4e44247949edb78c590f64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8def888229bf8a663aa938a0c46a3989') in 0.006293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '931a1e1e77b20f15bab81ab28b4b3adb') in 0.004788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fungus/Resources/Prefabs/ParallaxSprite.prefab
+  artifactKey: Guid(fbafb8431307c42c9b1bfb9b27f6bd98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/ParallaxSprite.prefab using Guid(fbafb8431307c42c9b1bfb9b27f6bd98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fa904efe88e860eaaf5c101a3eae3026') in 0.006539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TutorialInfo/Icons/Mobile 3D.png
+  artifactKey: Guid(cbea0258d69fdef4ba73fa582f0e2004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Icons/Mobile 3D.png using Guid(cbea0258d69fdef4ba73fa582f0e2004) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03c0714d9c318c84e36ca94dbeea40d4') in 0.015477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Fonts/Exo2/Exo2-Regular.ttf
+  artifactKey: Guid(79197ecfbc3a4294a89ce589dac02cf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Fonts/Exo2/Exo2-Regular.ttf using Guid(79197ecfbc3a4294a89ce589dac02cf2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fe75f915a00fa9cf78a9c5aa4c0ecde2') in 0.006641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Resources/Prefabs/EventSystem_NewInputSystem.prefab
+  artifactKey: Guid(3dce29c3451374640a01ebac1b50854e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/EventSystem_NewInputSystem.prefab using Guid(3dce29c3451374640a01ebac1b50854e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f94b163f795c1ec5292df830bb970897') in 0.006763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Resources/Prefabs/ClickableSprite.prefab
+  artifactKey: Guid(0e6bcf37a2876432fa58eff8888bf177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/ClickableSprite.prefab using Guid(0e6bcf37a2876432fa58eff8888bf177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48ae66d3bf820e028a54d2c08627a753') in 0.008166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Resources/Prefabs/NarrativeLog.prefab
+  artifactKey: Guid(bffd475e4bfb82f49810ceafe8d17b78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Resources/Prefabs/NarrativeLog.prefab using Guid(bffd475e4bfb82f49810ceafe8d17b78) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22617a1c96672c3c4ea2af649262f940') in 0.012268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Fonts/Exo2/Exo2-Bold.ttf
+  artifactKey: Guid(38fb69338d588b64ea5f2c219db3056b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Fonts/Exo2/Exo2-Bold.ttf using Guid(38fb69338d588b64ea5f2c219db3056b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fd13c93ad33984f6445e8333f18854b3') in 0.008432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.462711 seconds.
+  path: Assets/Fungus/Scripts/Commands/FadeUI.cs
+  artifactKey: Guid(5c6dd8d3a780f4d1ea772e3daf10c372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/FadeUI.cs using Guid(5c6dd8d3a780f4d1ea772e3daf10c372) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4dc680c74ee915e6cd74551e691e2aab') in 0.003096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Scripts/Commands/LuaIf.cs
+  artifactKey: Guid(a8d396bcbf372485cad471c0bb64bb44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/LuaIf.cs using Guid(a8d396bcbf372485cad471c0bb64bb44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'add8b16603782ff8dd95628117c4716f') in 0.002832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Commands/StopFlowchart.cs
+  artifactKey: Guid(ae67a23cb4aa74793b41258ae40bf321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/StopFlowchart.cs using Guid(ae67a23cb4aa74793b41258ae40bf321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b5f61f2b9711721260b7c88163e27cc') in 0.004615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Fungus/Scripts/Commands/SetAudioPitch.cs
+  artifactKey: Guid(2d3c9751268124c9390e807040e57447) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SetAudioPitch.cs using Guid(2d3c9751268124c9390e807040e57447) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22b4376e7eb1a1753e019518a1db366b') in 0.004610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fungus/Scripts/Commands/MenuTimer.cs
+  artifactKey: Guid(ab54728d981544842843ba6609b9a80a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/MenuTimer.cs using Guid(ab54728d981544842843ba6609b9a80a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5339fda8df012e77bb2f5976ca3ce3dc') in 0.003980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fungus/Scripts/Commands/SetAnimBool.cs
+  artifactKey: Guid(ee63e642958494f1ebed8116ae4b1103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SetAnimBool.cs using Guid(ee63e642958494f1ebed8116ae4b1103) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f106b423c0fff040078ebda5d9eb690') in 0.004020 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fungus/Scripts/Commands/StopAmbiance.cs
+  artifactKey: Guid(4bce3bd679be2c94196f3f6aaeb33f0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/StopAmbiance.cs using Guid(4bce3bd679be2c94196f3f6aaeb33f0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e189405ab44b48b2ff3358625deb4d7d') in 0.003477 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Scripts/Commands/PlayAmbianceSound.cs
+  artifactKey: Guid(831c208af3cccf24b80cc6f3768919bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/PlayAmbianceSound.cs using Guid(831c208af3cccf24b80cc6f3768919bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5db3d1132758c04967d708798ba325e9') in 0.004822 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Commands/SetAnimFloat.cs
+  artifactKey: Guid(fb1f6a369ef8c40bda77241018ab6bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SetAnimFloat.cs using Guid(fb1f6a369ef8c40bda77241018ab6bd6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c226c2f77d73e84fbe57a69114e2262') in 0.004181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Commands/PlayUsfxrSound.cs
+  artifactKey: Guid(a3ff412ad89846a47a70a620a222cbf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/PlayUsfxrSound.cs using Guid(a3ff412ad89846a47a70a620a222cbf8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'faada42bc42cc32499dde904eeff6fed') in 0.003985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Fungus/Scripts/Commands/Portrait.cs
+  artifactKey: Guid(3ac5ce55bc698fa4290939ef6e426501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Portrait.cs using Guid(3ac5ce55bc698fa4290939ef6e426501) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1892c8490042fce2dbda209ca1bd17bf') in 0.003869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Scripts/Commands/SendMessage.cs
+  artifactKey: Guid(c43743931d28f43f89eced820d907351) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SendMessage.cs using Guid(c43743931d28f43f89eced820d907351) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b14339256cc63b2e7958cd209b02c0a8') in 0.003903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fungus/Scripts/Commands/Menu.cs
+  artifactKey: Guid(841589fc622bc494aa5405f416fa1301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Menu.cs using Guid(841589fc622bc494aa5405f416fa1301) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5a6ec744dd12f0890e840fc76ade220e') in 0.005845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Scripts/Commands/RotateTo.cs
+  artifactKey: Guid(d2dd111db90064d2cb85e3370cdfe3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/RotateTo.cs using Guid(d2dd111db90064d2cb85e3370cdfe3ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cccf464c13f9f23009cb74181fee1a05') in 0.004827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fungus/Scripts/Commands/LookTo.cs
+  artifactKey: Guid(3ec82c445301b4e9fb9b89cb2eb6a666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/LookTo.cs using Guid(3ec82c445301b4e9fb9b89cb2eb6a666) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd0e7e174afb9d8155712df2d32a9ea9b') in 0.003286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Fungus/Scripts/Commands/Say.cs
+  artifactKey: Guid(ec422cd568a9c4a31ad7c36d0572b9da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Say.cs using Guid(ec422cd568a9c4a31ad7c36d0572b9da) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93773acb6d8af75b12d6ccdab7f51ded') in 0.003086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Commands/ShowSprite.cs
+  artifactKey: Guid(10cd462c89cb047158ccfb8a8df3f60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/ShowSprite.cs using Guid(10cd462c89cb047158ccfb8a8df3f60a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c21a4d447ca17571feba81af30ba011a') in 0.003260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fungus/Scripts/Commands/RotateFrom.cs
+  artifactKey: Guid(6cfc8560cbecd48adb3950b9dd7f2b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/RotateFrom.cs using Guid(6cfc8560cbecd48adb3950b9dd7f2b82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0ac020b11c741d06b1fcb7654bb214f4') in 0.005762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fungus/Scripts/Commands/SetLayerOrder.cs
+  artifactKey: Guid(673d76133d8494386801a5efa9dd6b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SetLayerOrder.cs using Guid(673d76133d8494386801a5efa9dd6b7c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86de63183eb4322efcf8e95414b6d7fb') in 0.003611 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Scripts/Commands/Reset.cs
+  artifactKey: Guid(0000066e72e484959b6a314a95d0dcd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Reset.cs using Guid(0000066e72e484959b6a314a95d0dcd2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8e6f0296acc336353ba71e51921d7b1d') in 0.004236 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fungus/Scripts/Commands/LookFrom.cs
+  artifactKey: Guid(433657382cf894ff2973ee118eed40ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/LookFrom.cs using Guid(433657382cf894ff2973ee118eed40ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '723d8ee4d9ef706a53a0d5b6134492ff') in 0.003383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fungus/Scripts/Commands/MoveToView.cs
+  artifactKey: Guid(45c952ea1ad444e479b570fa242679c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/MoveToView.cs using Guid(45c952ea1ad444e479b570fa242679c5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '878547391f3a5a81726bec3d30e65462') in 0.004019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Scripts/Commands/StopTween.cs
+  artifactKey: Guid(e7026a0b1ea104ec0af471324ee3daea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/StopTween.cs using Guid(e7026a0b1ea104ec0af471324ee3daea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c8b2a158392bc5607a062f686d2f94d') in 0.003063 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fungus/Scripts/Commands/ScaleAdd.cs
+  artifactKey: Guid(c4998e756a5d84f4ab55e075dad751b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/ScaleAdd.cs using Guid(c4998e756a5d84f4ab55e075dad751b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a496dcb2d67b03f677233702a54ab725') in 0.003461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Fungus/Scripts/Commands/SetInteractable.cs
+  artifactKey: Guid(ab0d0ed4a2ca94c81a230a0ecce6e6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SetInteractable.cs using Guid(ab0d0ed4a2ca94c81a230a0ecce6e6e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8461285dd9ad5ba14e7ce2357c7cd19f') in 0.003904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fungus/Scripts/Commands/MoveAdd.cs
+  artifactKey: Guid(598f181ee459641a9b0a5849fbc3240c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/MoveAdd.cs using Guid(598f181ee459641a9b0a5849fbc3240c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6637e41368a0ce8d84c1e59472e40ef7') in 0.004904 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Commands/SetDraggable2D.cs
+  artifactKey: Guid(c987b33e737044fb185f6ae869a7bc17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SetDraggable2D.cs using Guid(c987b33e737044fb185f6ae869a7bc17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e5180c541fab89e4c6d60a1e11b7f39') in 0.003529 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Scripts/Commands/LuaElseIf.cs
+  artifactKey: Guid(9739de3269e5246b399e3a1cd41b94de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/LuaElseIf.cs using Guid(9739de3269e5246b399e3a1cd41b94de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '744519adaec189b1592fff4bd1479fb6') in 0.004416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fungus/Scripts/Commands/SetActive.cs
+  artifactKey: Guid(dbd8c931f22994b9d90e2037fffaa770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SetActive.cs using Guid(dbd8c931f22994b9d90e2037fffaa770) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0a9e57df1c72346caa0b9006a3db9aa') in 0.003184 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Scripts/Commands/StopTweens.cs
+  artifactKey: Guid(46af98f4c7e084a5a96eb982e7271174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/StopTweens.cs using Guid(46af98f4c7e084a5a96eb982e7271174) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '717d09e365a0c9a68ea09a6368bc211a') in 0.004029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Fungus/Scripts/Commands/LoadVariable.cs
+  artifactKey: Guid(23c657364a3b24e16bdf5946729a8b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/LoadVariable.cs using Guid(23c657364a3b24e16bdf5946729a8b7b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30121e3defef4edf9284444d60631932') in 0.003757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Fungus/Scripts/Commands/SetAnimInteger.cs
+  artifactKey: Guid(76641c2c16481448eb6c0c1184fcdebe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/SetAnimInteger.cs using Guid(76641c2c16481448eb6c0c1184fcdebe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e80d544419cc0a0f91a85b563c1fa0f0') in 0.003141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.641844 seconds.
+  path: Assets/Fungus/Scripts/Components/Block.cs
+  artifactKey: Guid(3d3d73aef2cfc4f51abf34ac00241f60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Components/Block.cs using Guid(3d3d73aef2cfc4f51abf34ac00241f60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2c4c8a7e41a2b8a4a374c82e9245d5f2') in 0.005091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Fungus/Scripts/Editor/ExportPackageMenuItems.cs
+  artifactKey: Guid(2c9e6542c8a006f72b2ca9e50ec076cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/ExportPackageMenuItems.cs using Guid(2c9e6542c8a006f72b2ca9e50ec076cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f610b3e1803e17569e6c0f135e44b560') in 0.006030 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Fungus/Scripts/Interfaces/IUpdateable.cs
+  artifactKey: Guid(5c893a3523cc1497090726522c805cb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Interfaces/IUpdateable.cs using Guid(5c893a3523cc1497090726522c805cb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ca29327fbf7f02d2c8a29ae7abb4a320') in 0.003645 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Scripts/Utils/FungusConstants.cs
+  artifactKey: Guid(f5c033627e6d6426ebdf267bb6b6a242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Utils/FungusConstants.cs using Guid(f5c033627e6d6426ebdf267bb6b6a242) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8abb40c387a22ab032e68f0e51343a0c') in 0.003583 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Fungus/Scripts/Editor/LocalizationEditor.cs
+  artifactKey: Guid(ab0caac085485491fb32dbf86efefef1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/LocalizationEditor.cs using Guid(ab0caac085485491fb32dbf86efefef1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e1df662fe08647b311b0e517ecefa0d') in 0.004836 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Fungus/Scripts/Editor/EventHandlerEditor.cs
+  artifactKey: Guid(20c4bb770f7fd424c84b0e6a835ba45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/EventHandlerEditor.cs using Guid(20c4bb770f7fd424c84b0e6a835ba45b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1434507ed7191507490f7abc7d6fccee') in 0.004422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fungus/Scripts/Editor/EditorExtensions.cs
+  artifactKey: Guid(4d2feaeae344d44e681ac408cb745f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/EditorExtensions.cs using Guid(4d2feaeae344d44e681ac408cb745f03) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '51a15f3c0ec8fe52625fbe30f9c35a6e') in 0.003893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fungus/Scripts/Editor/CustomVariableDrawerLookup.cs
+  artifactKey: Guid(ce09adfbce8ccde4db2fa5371897b2b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/CustomVariableDrawerLookup.cs using Guid(ce09adfbce8ccde4db2fa5371897b2b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc32a80f5d3a3138b3f103587cd4dc2b') in 0.003785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Scripts/Editor/BlockEditor.cs
+  artifactKey: Guid(2c421ad4b1b9d4c48a3a04de2cb8146a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/BlockEditor.cs using Guid(2c421ad4b1b9d4c48a3a04de2cb8146a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cff2e1049b55750c3eb7c27ef841513') in 0.003943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Fungus/Scripts/Components/NarrativeLogEntryUI.cs
+  artifactKey: Guid(fde579c9edfbe7e469349e39e2a87a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Components/NarrativeLogEntryUI.cs using Guid(fde579c9edfbe7e469349e39e2a87a48) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b925388cf4ac41a1db68d815c3978a61') in 0.004116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fungus/Scripts/Interfaces/IBlockCaller.cs
+  artifactKey: Guid(c14d678ff547d8944a1a28e12c00868e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Interfaces/IBlockCaller.cs using Guid(c14d678ff547d8944a1a28e12c00868e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b99132cd938042b6b611778bbeb425a2') in 0.003979 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fungus/Scripts/EventHandlers/FlowchartEnabled.cs
+  artifactKey: Guid(8ff5d850a887844fe87ae7d366d3ab5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/EventHandlers/FlowchartEnabled.cs using Guid(8ff5d850a887844fe87ae7d366d3ab5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '81ec10f7ac0ce3736c4e4c7d549fc43d') in 0.003901 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/AudioMixerSnapshotVariable.cs
+  artifactKey: Guid(a0c881d43b2231a48bb94588c79eaf59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/AudioMixerSnapshotVariable.cs using Guid(a0c881d43b2231a48bb94588c79eaf59) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '49ca940824c12685800a809997c1883a') in 0.003740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Fungus/Scripts/Editor/ExportReferenceDocs.cs
+  artifactKey: Guid(ae5ffaf325414b049a5c31ab9b9bb22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/ExportReferenceDocs.cs using Guid(ae5ffaf325414b049a5c31ab9b9bb22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1cba32a042f4dca0d4d5b91f3cc443ba') in 0.004921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Signals/MenuSignals.cs
+  artifactKey: Guid(a233507ebbe704141b29dd39f6428b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Signals/MenuSignals.cs using Guid(a233507ebbe704141b29dd39f6428b21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c26d35ada4de83ad757d6cf1667fa8e5') in 0.003562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Fungus/Scripts/Utils/FlowchartData.cs
+  artifactKey: Guid(07443f90b887a47fb846500fe5ce3840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Utils/FlowchartData.cs using Guid(07443f90b887a47fb846500fe5ce3840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd45a1d6e9b7dbd28a817754ad4e9c884') in 0.004279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fungus/Scripts/Editor/FungusEditor.asmdef
+  artifactKey: Guid(34cf00d3f10a8f34783a2f8b914a0219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/FungusEditor.asmdef using Guid(34cf00d3f10a8f34783a2f8b914a0219) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '342d82cafdf51599576d1170af989e86') in 0.004386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Scripts/EventHandlers/GameStarted.cs
+  artifactKey: Guid(d2f6487d21a03404cb21b245f0242e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/EventHandlers/GameStarted.cs using Guid(d2f6487d21a03404cb21b245f0242e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96ceeb4dc25f4e5352b26987e362f727') in 0.004194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Fungus/Scripts/Editor/SpriteMenuItems.cs
+  artifactKey: Guid(06d0a1fb0d8114b0c953983b0424cc89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/SpriteMenuItems.cs using Guid(06d0a1fb0d8114b0c953983b0424cc89) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad282d34bd9039421fe4ac1ffd7f17a8') in 0.004178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fungus/Scripts/Editor/CommandEditor.cs
+  artifactKey: Guid(d0f040e6725a54d70af96df382dd046d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/CommandEditor.cs using Guid(d0f040e6725a54d70af96df382dd046d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a1ff74ea4544c00de8b9eafd8cef5b24') in 0.004548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fungus/Scripts/Components/Flowchart.cs
+  artifactKey: Guid(7a334fe2ffb574b3583ff3b18b4792d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Components/Flowchart.cs using Guid(7a334fe2ffb574b3583ff3b18b4792d3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79199ebf490dd93e1727c4e904d6ace3') in 0.003729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fungus/Scripts/Editor/CameraMenuItems.cs
+  artifactKey: Guid(51343e36134df4735b2d56529127c93d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/CameraMenuItems.cs using Guid(51343e36134df4735b2d56529127c93d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4c97bda509d698ef2703027729a4a05e') in 0.003113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fungus/Scripts/Utils/SavePointData.cs
+  artifactKey: Guid(d19fe746c09ac44e2bf310e6a1350b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Utils/SavePointData.cs using Guid(d19fe746c09ac44e2bf310e6a1350b8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a98cb2b4caa1d30c7b58a5c3df1f2ecf') in 0.003624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/BaseVariableProperty.cs
+  artifactKey: Guid(c0b81b77632f7cd4a9925ab4d07618c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/BaseVariableProperty.cs using Guid(c0b81b77632f7cd4a9925ab4d07618c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e939c190f73a6945e1dd6d04b5a2c0d1') in 0.004180 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Editor/SayEditor.cs
+  artifactKey: Guid(9cf4a398fbf29437cb1c786f4d196279) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/SayEditor.cs using Guid(9cf4a398fbf29437cb1c786f4d196279) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '79ed30bebdc1a9261dc30f83b4b96052') in 0.003627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fungus/Scripts/Utils/AllVariableTypes.cs
+  artifactKey: Guid(18d15dbcc71f440409f4ea358af6956f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Utils/AllVariableTypes.cs using Guid(18d15dbcc71f440409f4ea358af6956f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '489418e48f1cb2c413cb53e6728c5f47') in 0.003308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fungus/Scripts/Components/Localization.cs
+  artifactKey: Guid(e5724422a635e425bae0af9ffe2615d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Components/Localization.cs using Guid(e5724422a635e425bae0af9ffe2615d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c5d67d05a35d87b0a935fb0bf00507bd') in 0.003257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fungus/Scripts/Editor/EditorZoomArea.cs
+  artifactKey: Guid(21069ce91309a44daa0798b2d7c3635b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/EditorZoomArea.cs using Guid(21069ce91309a44daa0798b2d7c3635b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd5d5f87633077b1926e52f9fbbb0e76') in 0.004722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Fungus/Scripts/EventHandlers/InputActionEventHandler.cs
+  artifactKey: Guid(837d6229a348baa4eb848e538cb1882f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/EventHandlers/InputActionEventHandler.cs using Guid(837d6229a348baa4eb848e538cb1882f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a9912c8306b489aec64f84d64239489') in 0.003319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Fungus/Scripts/Editor/VariableReferenceDrawer.cs
+  artifactKey: Guid(e5d801a1ae7a4c144b6c561f8b7f8852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/VariableReferenceDrawer.cs using Guid(e5d801a1ae7a4c144b6c561f8b7f8852) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '87b5c0f37669fd6312678126cc8299c7') in 0.003262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Scripts/Editor/LuaScriptedImporter.cs
+  artifactKey: Guid(d97e7e55c88779e4ca8688698c573c4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/LuaScriptedImporter.cs using Guid(d97e7e55c88779e4ca8688698c573c4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a072c3dc5d5869543a99167ab51f8cf') in 0.004079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fungus/Scripts/Components/SaveManager.cs
+  artifactKey: Guid(7cbb6770b607545c4909850d54df3979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Components/SaveManager.cs using Guid(7cbb6770b607545c4909850d54df3979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edce731b06c6f34c8f76ebd16c88310e') in 0.004141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fungus/Scripts/Components/SayDialog.cs
+  artifactKey: Guid(3a0bbe22c246e4c78ad8e9816cbae9d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Components/SayDialog.cs using Guid(3a0bbe22c246e4c78ad8e9816cbae9d5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31ef64d8d1b4ac09c429dceb12e7ba75') in 0.003606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Editor/FlowchartWindow.cs
+  artifactKey: Guid(4fbdd10bc8bb942a588a63ffdcb57895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/FlowchartWindow.cs using Guid(4fbdd10bc8bb942a588a63ffdcb57895) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9fa9d91d87fd9be9a2cdb76c120744a2') in 0.003815 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Scripts/Interfaces/IFungusCollection.cs
+  artifactKey: Guid(25858096aa47be24c92616be98863f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Interfaces/IFungusCollection.cs using Guid(25858096aa47be24c92616be98863f8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bf56115ffcec9c561d2e1772c79e2ce') in 0.004225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Fungus/Scripts/Editor/FungusEditorResourcesGenerated.cs
+  artifactKey: Guid(f5119f9bdde234916bed657bdc751f76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/FungusEditorResourcesGenerated.cs using Guid(f5119f9bdde234916bed657bdc751f76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '654f9ee7d613339ad99d42780a9ff159') in 0.003966 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Fungus/Scripts/Editor/ControlAudioEditor.cs
+  artifactKey: Guid(5d1c9ed42e441784684b7d550738d944) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/ControlAudioEditor.cs using Guid(5d1c9ed42e441784684b7d550738d944) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c3e727c42c317b3a1e5c1ec2280ed4b') in 0.004097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Scripts/Components/CustomTag.cs
+  artifactKey: Guid(335e04fbdd5260043abb299a991dcbe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Components/CustomTag.cs using Guid(335e04fbdd5260043abb299a991dcbe8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a6f8214ccfed3711e56535bef46b019') in 0.003207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.519745 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/Collider2DVariable.cs
+  artifactKey: Guid(a3f274bcd518c0647b0d9ce7c8f3ab84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/Collider2DVariable.cs using Guid(a3f274bcd518c0647b0d9ce7c8f3ab84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e8104ddc3a3abe48f70193d9e3beed3e') in 0.007628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Fungus/Scripts/Commands/Property/Matrix4x4Property.cs
+  artifactKey: Guid(37ada407c7c9fab46abba0d40c27fa96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Property/Matrix4x4Property.cs using Guid(37ada407c7c9fab46abba0d40c27fa96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c34e610397994a058d33d97e19161fd5') in 0.003980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/ColorVariable.cs
+  artifactKey: Guid(ea5b85dd356214c4c92b08ec04d89927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/ColorVariable.cs using Guid(ea5b85dd356214c4c92b08ec04d89927) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f84cf3ad3bb6e712a01b3e6aa5ae0124') in 0.003366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/Physics2DCast.cs
+  artifactKey: Guid(da8de59f5960f5c4b9d61002cc912b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/Physics2DCast.cs using Guid(da8de59f5960f5c4b9d61002cc912b37) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '790961df01f962ca7e3e5a2ac652dcab') in 0.003006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/CollectionCommandOccurrences.cs
+  artifactKey: Guid(75a3711bc9cd44e429e15e10f6029fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/CollectionCommandOccurrences.cs using Guid(75a3711bc9cd44e429e15e10f6029fae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '853d1751fe2c7250cce166f48cf257aa') in 0.004416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/ControllerColliderHitVariable.cs
+  artifactKey: Guid(1697e3d2923d7a04992d32e821365308) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/ControllerColliderHitVariable.cs using Guid(1697e3d2923d7a04992d32e821365308) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08b5ebbf9c799e47a18ce7e28f7f90c1') in 0.005163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/CollectionBaseVarCommand.cs
+  artifactKey: Guid(fe12b6eb87e59984cb4122f978f11e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/CollectionBaseVarCommand.cs using Guid(fe12b6eb87e59984cb4122f978f11e45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ed136c662604dd7ee455fb9da2a9f17') in 0.003412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/CollectionCommandClear.cs
+  artifactKey: Guid(8b071472a9dcdc7469059042e2e6e50d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/CollectionCommandClear.cs using Guid(8b071472a9dcdc7469059042e2e6e50d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df76d93eba2ca88f9ac9ebd0eedfa42f') in 0.004590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Fungus/Thirdparty/LeanTween/LeanTest.cs
+  artifactKey: Guid(82464f26ca2ba284a8f92f51248c574a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/LeanTween/LeanTest.cs using Guid(82464f26ca2ba284a8f92f51248c574a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad595c16ca270a403d9586d8fd6342ea') in 0.004909 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000145 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/ObjectVariable.cs
+  artifactKey: Guid(ecbb345616367420f90d15042808304e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/ObjectVariable.cs using Guid(ecbb345616367420f90d15042808304e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f9cbeb7be27aeed5eb8446882e80973') in 0.004065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/RigidbodyVariable.cs
+  artifactKey: Guid(22ca3b0d4747cfa40806a3521c5f29cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/RigidbodyVariable.cs using Guid(22ca3b0d4747cfa40806a3521c5f29cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a04644ab5c9ae31363a7e3feeee8239') in 0.004257 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fungus/Scripts/Commands/LeanTween/ShakeRotationLean.cs
+  artifactKey: Guid(6b5b8b999ab46f44bb71ebe77cf27e09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/LeanTween/ShakeRotationLean.cs using Guid(6b5b8b999ab46f44bb71ebe77cf27e09) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69d53e7e986b3b00b2794d86ce6f1eae') in 0.004391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/Matrix4x4Variable.cs
+  artifactKey: Guid(92a3ae3fceb40f24db63f0e4085f39cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/Matrix4x4Variable.cs using Guid(92a3ae3fceb40f24db63f0e4085f39cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f39270b6e173056131ecf8284cfa70d8') in 0.003627 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Fungus/Scripts/Commands/Property/CharacterProperty.cs
+  artifactKey: Guid(8d626b9fb5bc5c64c916babc01002cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Property/CharacterProperty.cs using Guid(8d626b9fb5bc5c64c916babc01002cd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '253dfe117a4a806e0daa1d17f952931b') in 0.004337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Scripts/Commands/Priority/FungusPriorityDecrease.cs
+  artifactKey: Guid(ebc295ba6aed8944fa3974a64f33cc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Priority/FungusPriorityDecrease.cs using Guid(ebc295ba6aed8944fa3974a64f33cc42) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30c8da82d0e6ecd498987e51a8b9ff64') in 0.004449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/CollectionCommandSort.cs
+  artifactKey: Guid(00093f39e8583954ba5935bca806f0f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/CollectionCommandSort.cs using Guid(00093f39e8583954ba5935bca806f0f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '05c485d1202b965fe2e7423923ec7afc') in 0.002899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fungus/Scripts/Commands/Property/AudioMixerSnapshotProperty.cs
+  artifactKey: Guid(dd498fe117681c14797865a9b66dbe3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Property/AudioMixerSnapshotProperty.cs using Guid(dd498fe117681c14797865a9b66dbe3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52efd5ecb740de8fff3c308126e8b8b4') in 0.005107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fungus/Scripts/Commands/Vector3/Vector3ToVector2.cs
+  artifactKey: Guid(d3b374d347ec80647b7c01956f291a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Vector3/Vector3ToVector2.cs using Guid(d3b374d347ec80647b7c01956f291a84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03e84995136c2064a93b8cf1f7dcedde') in 0.005940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/Vector3Variable.cs
+  artifactKey: Guid(4d769ea3513ad47aabf805db5252341d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/Vector3Variable.cs using Guid(4d769ea3513ad47aabf805db5252341d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e170398c3189802a37d3657d4ce4e484') in 0.004070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/ForEach.cs
+  artifactKey: Guid(1ce547d5384ce3a41b7142cab8ab41dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/ForEach.cs using Guid(1ce547d5384ce3a41b7142cab8ab41dd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f471b9b13a28966842c9007c24c6189') in 0.003072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/CollectionCommandReverse.cs
+  artifactKey: Guid(d7359fcb744d14a41acae4b3a2e34b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/CollectionCommandReverse.cs using Guid(d7359fcb744d14a41acae4b3a2e34b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7f7e87395a74ef3a42715fdbaab85c05') in 0.006934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Fungus/Thirdparty/LeanTween/LeanTween.cs
+  artifactKey: Guid(9c2f4b27196f84954b44753aaac214bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/LeanTween/LeanTween.cs using Guid(9c2f4b27196f84954b44753aaac214bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '45afad7c24dace24bbfa14eb2fe641e3') in 0.004142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/Vector2Variable.cs
+  artifactKey: Guid(ebe929c2f37ad4b19ad9d33a77c5064a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/Vector2Variable.cs using Guid(ebe929c2f37ad4b19ad9d33a77c5064a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '427e9ce14b7cc88ba66735460728d4fd') in 0.004109 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Scripts/Commands/Property/AudioClipProperty.cs
+  artifactKey: Guid(21cfeb30738cc194091edce18aa527de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Property/AudioClipProperty.cs using Guid(21cfeb30738cc194091edce18aa527de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56ebb565320f3176970c725549a09712') in 0.003172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Scripts/Commands/Rigidbody2D/AddTorque2D.cs
+  artifactKey: Guid(42fb61d4cee69b244bcf4fcc8e4ae28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Rigidbody2D/AddTorque2D.cs using Guid(42fb61d4cee69b244bcf4fcc8e4ae28b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31905892830df421c1620f91dae6cce4') in 0.004685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Fungus/Scripts/Commands/Property/AnimatorProperty.cs
+  artifactKey: Guid(e4616a794b2245d46970401b3acc492f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Property/AnimatorProperty.cs using Guid(e4616a794b2245d46970401b3acc492f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f0b47d1b28ba83a40a25cce78cfd674') in 0.003192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Thirdparty/iTween/iTween.cs
+  artifactKey: Guid(4f492eaa0cef64fe98fb2b58845bbbd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/iTween/iTween.cs using Guid(4f492eaa0cef64fe98fb2b58845bbbd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ad134a048e65bdc02824c5d560d3515d') in 0.003596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Scripts/Commands/LeanTween/StopTweensLean.cs
+  artifactKey: Guid(d998218fa600bac43adbc431e9dd6c0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/LeanTween/StopTweensLean.cs using Guid(d998218fa600bac43adbc431e9dd6c0c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd886431c4ef31c22f02d9e797638d832') in 0.004058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fungus/Thirdparty/LeanTween/LTDescr.cs
+  artifactKey: Guid(381c8d6fb1acdc348870a7147bc98723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/LeanTween/LTDescr.cs using Guid(381c8d6fb1acdc348870a7147bc98723) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7bdd7fe9cfebce507ac750b1a6944967') in 0.004883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/Fungus/Thirdparty/CSVParser/CsvParser.cs
+  artifactKey: Guid(803c0d4d8bc9447d1b20e1f4fb86120f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/CSVParser/CsvParser.cs using Guid(803c0d4d8bc9447d1b20e1f4fb86120f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '53040bc02250c90f3cfaf81d774ba6df') in 0.004437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/CollectionBaseCommand.cs
+  artifactKey: Guid(dab2b4efcfae62841b5070c4cfec8c4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/CollectionBaseCommand.cs using Guid(dab2b4efcfae62841b5070c4cfec8c4a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c8e7888299141c44317fdf0262a4f74') in 0.003975 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/SpriteVariable.cs
+  artifactKey: Guid(cf67d97824e8c45c5b26fe72bfef82ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/SpriteVariable.cs using Guid(cf67d97824e8c45c5b26fe72bfef82ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96b15922b10bdf0f2c0521b9ead1f342') in 0.003983 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Scripts/Commands/Property/QuaternionProperty.cs
+  artifactKey: Guid(1082e9a99a168824583a459d59a448a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Property/QuaternionProperty.cs using Guid(1082e9a99a168824583a459d59a448a0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e92d9b23b7d5a7336e33b74139eaf69') in 0.003168 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/StringVariable.cs
+  artifactKey: Guid(4580f28dd8581476b810b38eea2f1316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/StringVariable.cs using Guid(4580f28dd8581476b810b38eea2f1316) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97f08c3e7de63e011e158ec3a8b15b0e') in 0.003045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Scripts/Commands/Math/Round.cs
+  artifactKey: Guid(b9c834185b491334d8e41ca4fc49a56e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Math/Round.cs using Guid(b9c834185b491334d8e41ca4fc49a56e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd080e838b2c3ba7dd5c66654ffcda1e3') in 0.003045 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Fungus/Scripts/Commands/Math/InvLerp.cs
+  artifactKey: Guid(80c88869f66a81f4b95e843c36724e65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Math/InvLerp.cs using Guid(80c88869f66a81f4b95e843c36724e65) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b88490eb87b26fe604a01032436e4f7') in 0.003824 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Scripts/Commands/Collection/PhysicsCast.cs
+  artifactKey: Guid(44a4b238cb3af004bbae4a6145089ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Commands/Collection/PhysicsCast.cs using Guid(44a4b238cb3af004bbae4a6145089ea2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebe2f067e9b56c30d0daa59fdb1bb3a6') in 0.003551 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/Collision2DVariable.cs
+  artifactKey: Guid(303f39102fa585240b75ba39909c0420) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/Collision2DVariable.cs using Guid(303f39102fa585240b75ba39909c0420) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75f4ae8a8a4d40387124086fddfed1ef') in 0.003600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.362821 seconds.
+  path: Assets/Fungus/Scripts/Editor/VariableTypes/AnimatorVariableDrawer.cs
+  artifactKey: Guid(84539dbf98b813e4686cedce50f7b357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/VariableTypes/AnimatorVariableDrawer.cs using Guid(84539dbf98b813e4686cedce50f7b357) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1053b90642eeff9d8bc24839239fd7bd') in 0.003704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/Collection/Collection.cs
+  artifactKey: Guid(a442c00dcdac2f74189524677670231b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/Collection/Collection.cs using Guid(a442c00dcdac2f74189524677670231b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17aaae8e265fa9b73d0fa8f6195a7d6d') in 0.003538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Fungus/Scripts/Editor/VariableTypes/Collider2DVariableDrawer.cs
+  artifactKey: Guid(1002f1c3b8f44a7478aa6a62584e2130) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/VariableTypes/Collider2DVariableDrawer.cs using Guid(1002f1c3b8f44a7478aa6a62584e2130) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a07d0f25eb701d927db6d2b6ca9f80f1') in 0.003528 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/TailCallData.cs
+  artifactKey: Guid(31dfb37b59f214af2970db3e9221e434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/TailCallData.cs using Guid(31dfb37b59f214af2970db3e9221e434) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84ac1baeb87226c4b0aba9d888b96f1e') in 0.003609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/UserData.cs
+  artifactKey: Guid(03de1779812bd4d91ad1a727814c4b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/UserData.cs using Guid(03de1779812bd4d91ad1a727814c4b44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7db8388c45efaa6021645d98821a9f3') in 0.005359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Compatibility/Stopwatch.cs
+  artifactKey: Guid(23ea8da0a506c1444af1949fa30dd149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Compatibility/Stopwatch.cs using Guid(23ea8da0a506c1444af1949fa30dd149) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6b22bbb6bd02e38ae476642c6ad3449c') in 0.003793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/ExecuteHandlerEditor.cs
+  artifactKey: Guid(433a5aec1adda4a86a0022cde6487aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/ExecuteHandlerEditor.cs using Guid(433a5aec1adda4a86a0022cde6487aa9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb3b7e99dd0fdb98f46e7ecf88b89a5d') in 0.004078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/Fungus.FungusLuaEditor.asmdef
+  artifactKey: Guid(68356f51e7c115448be4b12e1d73df06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/Fungus.FungusLuaEditor.asmdef using Guid(68356f51e7c115448be4b12e1d73df06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0f69a0186ea7c15eb7c39ef9335865e') in 0.003973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Debugger/MoonSharpVsCodeDebugServer.cs
+  artifactKey: Guid(1f49800a7463743149b597062d1b42a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Debugger/MoonSharpVsCodeDebugServer.cs using Guid(1f49800a7463743149b597062d1b42a2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d8a406c8849c956f99717a772d9fb99') in 0.005146 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/YieldRequest.cs
+  artifactKey: Guid(46a92da4c9cb74156b884a2747c47d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/YieldRequest.cs using Guid(46a92da4c9cb74156b884a2747c47d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c473a039e24d81282b876b090dcc3b8') in 0.003991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/InstructionFieldUsage.cs
+  artifactKey: Guid(8c04c0f8c4300420cbff782f16d58ceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/InstructionFieldUsage.cs using Guid(8c04c0f8c4300420cbff782f16d58ceb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f1e7d3f2cdbc4af68d8d7124a015a57d') in 0.006071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/CallbackArguments.cs
+  artifactKey: Guid(a0cb95a447d5e4c3fa38eac099c683f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/CallbackArguments.cs using Guid(a0cb95a447d5e4c3fa38eac099c683f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ea5403ba30b807e91d3aafaeffd8e3d0') in 0.005771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Thirdparty/TextMeshPro/Resources/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/TextMeshPro/Resources/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3ebfb616dd746d5b1af2531436b69f4') in 0.008886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fungus/Thirdparty/TextMeshPro/Resources/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/TextMeshPro/Resources/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9e63feeca96daf102e0b7a0407c40a92') in 0.005417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/UpdateTick.cs
+  artifactKey: Guid(d2fbef54b0b0adb41ab9b447a8f3cbdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/UpdateTick.cs using Guid(d2fbef54b0b0adb41ab9b447a8f3cbdb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3b74e09232780885368cc2d27f665a0') in 0.005352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/Render.cs
+  artifactKey: Guid(f398676485e82e34398f24b0f502aace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/Render.cs using Guid(f398676485e82e34398f24b0f502aace) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b51405d09a2622b2601ffda841944eab') in 0.003385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fungus/Thirdparty/TextMeshPro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/TextMeshPro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5417fbc259cdfdbfd5c4e25efdb38543') in 0.037026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Debugging/IDebugger.cs
+  artifactKey: Guid(b71f3121415ae4a53b982a2d4d5dfa52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Debugging/IDebugger.cs using Guid(b71f3121415ae4a53b982a2d4d5dfa52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df8e1504ee458ddea3c2a44773ba6691') in 0.004449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/CoreLib/ErrorHandlingModule.cs
+  artifactKey: Guid(25a48a75173cc44959f158f5aed1fc00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/CoreLib/ErrorHandlingModule.cs using Guid(25a48a75173cc44959f158f5aed1fc00) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7cbeafdbfdc91c46926eca32aa4800b') in 0.008156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/LuaUtilsEditor.cs
+  artifactKey: Guid(2e8bbf4afc9f447ccb83004b8bbe3e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Scripts/Editor/LuaUtilsEditor.cs using Guid(2e8bbf4afc9f447ccb83004b8bbe3e1a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '991aab38887bbec3667f5c3fc2aba563') in 0.004288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/JSON/readme.md
+  artifactKey: Guid(db6abf22260f8db43bc7e785f129ce0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/JSON/readme.md using Guid(db6abf22260f8db43bc7e785f129ce0b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf9247a3c8bb9beb22a0f139c8340a5b') in 0.003450 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Scripts/Editor/VariableTypes/MaterialVariableDrawer.cs
+  artifactKey: Guid(705f2cf9d782c0b45a19981550262842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/VariableTypes/MaterialVariableDrawer.cs using Guid(705f2cf9d782c0b45a19981550262842) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3641995b9ea250cd23ca659dc08fcb38') in 0.005732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Thirdparty/Usfxr/Editor/Fungus.UsfxrEditor.asmdef
+  artifactKey: Guid(0c1b20abafdf15d4cbb15a2d4fef2a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/Usfxr/Editor/Fungus.UsfxrEditor.asmdef using Guid(0c1b20abafdf15d4cbb15a2d4fef2a97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfd6201206f3d4a55f497b2b3bbc5f4c') in 0.004571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/Collision.cs
+  artifactKey: Guid(d3b4d2ce0fcd12448ab6b4492be6ca77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/Collision.cs using Guid(d3b4d2ce0fcd12448ab6b4492be6ca77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '78c93f771037d977538565fb68bc9d2c') in 0.004457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/AsyncExtensions.cs
+  artifactKey: Guid(66aa67af332e348cbb7dd54b3d5d6433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/AsyncExtensions.cs using Guid(66aa67af332e348cbb7dd54b3d5d6433) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbf6fb32c6a666c3a02d761b70378b89') in 0.004798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/CallbackFunction.cs
+  artifactKey: Guid(06332ea2b09864a55b347cf90f8c356a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/CallbackFunction.cs using Guid(06332ea2b09864a55b347cf90f8c356a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8fa32917e92a65598ba42039d6697f86') in 0.004787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Debugger/SDK/Protocol.cs
+  artifactKey: Guid(62430b596d436444d80bee2512f25a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Debugger/SDK/Protocol.cs using Guid(62430b596d436444d80bee2512f25a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc93c2fab833fb0679908023e0b1eca9') in 0.004646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Fungus/Scripts/VariableTypes/Collection/TransformCollection.cs
+  artifactKey: Guid(65f1198eb774e9b48816b995d01e5053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/VariableTypes/Collection/TransformCollection.cs using Guid(65f1198eb774e9b48816b995d01e5053) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02e0d74fd3ccd6c285996ae5699650f7') in 0.004574 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/NameSpace_XmlHelp.cs
+  artifactKey: Guid(ce2e5bd5d0b2b49fe99dbc8fc4aec9bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/NameSpace_XmlHelp.cs using Guid(ce2e5bd5d0b2b49fe99dbc8fc4aec9bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd80bd0eb6c418bf492b199d6750cccbc') in 0.003625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Fungus/Scripts/Editor/VariableTypes/Matrix4x4VariableDrawer.cs
+  artifactKey: Guid(15e98b43732d6564e87e13ccc2490b05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/VariableTypes/Matrix4x4VariableDrawer.cs using Guid(15e98b43732d6564e87e13ccc2490b05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c9c9b7ced7a38072ec9dc77bb7b3504') in 0.005704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Fungus/Scripts/Editor/VariableTypes/TextureVariableDrawer.cs
+  artifactKey: Guid(7e870d88e412ce9429a456459523b9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/VariableTypes/TextureVariableDrawer.cs using Guid(7e870d88e412ce9429a456459523b9ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '039dff35df7cd3f2cfd84ae5b7cbc480') in 0.003324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/PropertyTableAssigner.cs
+  artifactKey: Guid(29adf7e98b14849d3bf021d9978d0d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/PropertyTableAssigner.cs using Guid(29adf7e98b14849d3bf021d9978d0d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bb2a58e809ffba319f095b892786cad') in 0.003722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Fungus/Thirdparty/TextMeshPro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/TextMeshPro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '385932e508103c40f1a8ce9a262a416f') in 0.003978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/Particle.cs
+  artifactKey: Guid(e33f54c502fbc974ab0e725f4ce0ec17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/EventHandlers/MonoBehaviour/Particle.cs using Guid(e33f54c502fbc974ab0e725f4ce0ec17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7c5c2319fa1596c75df6c9dbfbf0c09f') in 0.003466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Thirdparty/TextMeshPro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/TextMeshPro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b152821381885e35224c28cf75f3886e') in 0.025960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/WellKnownSymbols.cs
+  artifactKey: Guid(e13b2437cd7bb41ffbc4dc15747f72b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/DataTypes/WellKnownSymbols.cs using Guid(e13b2437cd7bb41ffbc4dc15747f72b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5367a71b3f3888696fb9c2571bfe806f') in 0.004549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Fungus/Scripts/Editor/VariableTypes/RigidbodyVariableDrawer.cs
+  artifactKey: Guid(0f2345a171733574898d4670f1f7bd79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Scripts/Editor/VariableTypes/RigidbodyVariableDrawer.cs using Guid(0f2345a171733574898d4670f1f7bd79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '443e9454038775311e7637087977a3c6') in 0.005687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Thirdparty/TextMeshPro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/TextMeshPro/Resources/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc9bc0b0761ed4c825f173e0d5150de0') in 0.005636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.255128 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Loaders/EmbeddedResourcesScriptLoader.cs
+  artifactKey: Guid(fe66f88e60a984221b3f9d6e2e270c96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Loaders/EmbeddedResourcesScriptLoader.cs using Guid(fe66f88e60a984221b3f9d6e2e270c96) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cd033b9ef7fd2d0aab198442d0f5194') in 0.003687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/Scopes/BuildTimeScopeFrame.cs
+  artifactKey: Guid(358f799740da74110b5e8484d5e44f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/Scopes/BuildTimeScopeFrame.cs using Guid(358f799740da74110b5e8484d5e44f8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '709f214e2f7f05ad1efef2421d5ce962') in 0.006327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Modules/ModuleRegister.cs
+  artifactKey: Guid(36c2ca3cd92354d37a71219519c65c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Modules/ModuleRegister.cs using Guid(36c2ca3cd92354d37a71219519c65c84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '794b096fd5fc222a75852f5f68a6b81f') in 0.003946 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/StandardGenericsUserDataDescriptor.cs
+  artifactKey: Guid(89ded8cbedd28423587da705e814718b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/StandardGenericsUserDataDescriptor.cs using Guid(89ded8cbedd28423587da705e814718b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2efdb8251f6057d9367e5f6f7dba54b') in 0.006360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/Reflection/EventMemberDescriptor.cs
+  artifactKey: Guid(459fecf3c2e24493dbb3343468794c2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/Reflection/EventMemberDescriptor.cs using Guid(459fecf3c2e24493dbb3343468794c2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1764d096d138cabed689e3a9174625a2') in 0.006378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Diagnostics/PerformanceCounters/GlobalPerformanceStopwatch.cs
+  artifactKey: Guid(d577d45b204d44d6e83f9b9b9aa87b85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Diagnostics/PerformanceCounters/GlobalPerformanceStopwatch.cs using Guid(d577d45b204d44d6e83f9b9b9aa87b85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '166a80157e94c344627cb249add4e743') in 0.004074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/ProxyUserDataDescriptor.cs
+  artifactKey: Guid(1dfd27bda419d4d66ac0202bd5129321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/ProxyUserDataDescriptor.cs using Guid(1dfd27bda419d4d66ac0202bd5129321) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '03ec13d790857f14df9276ebbd379b9a') in 0.004580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/BasicDescriptors/IMemberDescriptor.cs
+  artifactKey: Guid(f537e8782afd64f3cb92fde721e22630) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/BasicDescriptors/IMemberDescriptor.cs using Guid(f537e8782afd64f3cb92fde721e22630) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e6a91fc9f3f0e09398656de3c7d5f4d5') in 0.003421 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Statements/LabelStatement.cs
+  artifactKey: Guid(e6b59b6847c944bbcbff9891ed73131b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Statements/LabelStatement.cs using Guid(e6b59b6847c944bbcbff9891ed73131b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65c862e74d7c61c2e7956d66d1ac1083') in 0.003492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/CoreLib/IO/StreamFileUserDataBase.cs
+  artifactKey: Guid(07ffca2aa60ad4febb46043b8eb2b531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/CoreLib/IO/StreamFileUserDataBase.cs using Guid(07ffca2aa60ad4febb46043b8eb2b531) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd74c8e16b8ba350348f39b324f1c75b8') in 0.004517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/Hardwired/HardwiredMemberDescriptor.cs
+  artifactKey: Guid(9e219ae3995f14bca923411ed343be4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/Hardwired/HardwiredMemberDescriptor.cs using Guid(9e219ae3995f14bca923411ed343be4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '84cf86ff4a759324b1b97fd4ea063e40') in 0.004847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Platforms/PlatformAccessorBase.cs
+  artifactKey: Guid(58597ecc9be4e445d905f52523ca4e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Platforms/PlatformAccessorBase.cs using Guid(58597ecc9be4e445d905f52523ca4e8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8aa49f5b7d2a22941397c5c31a69bbb4') in 0.003258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/VM/CallStackItemFlags.cs
+  artifactKey: Guid(878e867c5978449e69be8ab4ea0dcfd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/VM/CallStackItemFlags.cs using Guid(878e867c5978449e69be8ab4ea0dcfd3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bf797598bfa49ac967c38e987c7e7921') in 0.003537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/VM/Instruction.cs
+  artifactKey: Guid(b6ceba5e09ced4424b381ee3ecdad9d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/VM/Instruction.cs using Guid(b6ceba5e09ced4424b381ee3ecdad9d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96e2c76c04c0337993482eadfd0c3b2a') in 0.003937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/Scopes/BuildTimeScope.cs
+  artifactKey: Guid(dbaced08cc4ed4cd1a9f03e23721587e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/Scopes/BuildTimeScope.cs using Guid(dbaced08cc4ed4cd1a9f03e23721587e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70e19eb563e7221c8ff8a2aa53d72ca7') in 0.004480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Compatibility/Frameworks/Base/FrameworkBase.cs
+  artifactKey: Guid(dbb9f51b6e0b0684ca09c843924edd61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Compatibility/Frameworks/Base/FrameworkBase.cs using Guid(dbb9f51b6e0b0684ca09c843924edd61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bb4f3ae24a0dfc153ab27b3fed49eb9') in 0.003596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/Member/ArrayMemberDescriptor.cs
+  artifactKey: Guid(16ace6782aaff42ef925471de4da3385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/Member/ArrayMemberDescriptor.cs using Guid(16ace6782aaff42ef925471de4da3385) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebc8be42c5b2322ec49dd91a2b103f0a') in 0.004111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/AutoDescribingUserDataDescriptor.cs
+  artifactKey: Guid(352d20f0b03db4824871ccc4ff8c616a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/AutoDescribingUserDataDescriptor.cs using Guid(352d20f0b03db4824871ccc4ff8c616a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8aedb587e14f5c4127a4a6216813fe9') in 0.005714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/CompositeUserDataDescriptor.cs
+  artifactKey: Guid(f5dd2e97a42ab4fa2a71abc2d46f59a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/StandardDescriptors/CompositeUserDataDescriptor.cs using Guid(f5dd2e97a42ab4fa2a71abc2d46f59a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '725660bff7e15c5c9b8eec5112ae72a3') in 0.003912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/ProxyObjects/IProxyFactory.cs
+  artifactKey: Guid(e66b6f4653072444789b4a589c6c2a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/ProxyObjects/IProxyFactory.cs using Guid(e66b6f4653072444789b4a589c6c2a3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b029acbc8ddb2d4b59595f52063b81a3') in 0.005306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/Scopes/RuntimeScopeFrame.cs
+  artifactKey: Guid(326d78bb223bf4da9ab216b6e6dca845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/Scopes/RuntimeScopeFrame.cs using Guid(326d78bb223bf4da9ab216b6e6dca845) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3e27715501dc44b87cfd6660dfdd6ac8') in 0.003811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Expressions/IndexExpression.cs
+  artifactKey: Guid(ddb1f940605694b16a3484b5ff7efdfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Expressions/IndexExpression.cs using Guid(ddb1f940605694b16a3484b5ff7efdfb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f731b37a8114929e9a61a30f52fdb0f2') in 0.003353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/Scopes/BuildTimeScopeBlock.cs
+  artifactKey: Guid(0b791e8fa773646c59cafb0c3d25de14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/Scopes/BuildTimeScopeBlock.cs using Guid(0b791e8fa773646c59cafb0c3d25de14) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a36a6b52547a564574214215c1ad9362') in 0.003902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/Attributes/MoonSharpUserDataAttribute.cs
+  artifactKey: Guid(0cdbe535e00374a92b3399423847bb6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/Attributes/MoonSharpUserDataAttribute.cs using Guid(0cdbe535e00374a92b3399423847bb6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed3c72c9ffe591778d558ba4f4bd3999') in 0.004593 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/LuaStateInterop/LuaBase_CLib.cs
+  artifactKey: Guid(922b575dd83cc46739a020c8abe4849c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/LuaStateInterop/LuaBase_CLib.cs using Guid(922b575dd83cc46739a020c8abe4849c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd4e6faee8416021922d4fa044eac895f') in 0.003814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/IVariable.cs
+  artifactKey: Guid(7f8fab7b547fe49d3a6c39d5bf1aa16d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/IVariable.cs using Guid(7f8fab7b547fe49d3a6c39d5bf1aa16d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5974c364c1a9f661d63a90373aadadb') in 0.003354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Fast_Interface/Loader_Fast.cs
+  artifactKey: Guid(d2b48e341b32244b7b804e5c678d43e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Fast_Interface/Loader_Fast.cs using Guid(d2b48e341b32244b7b804e5c678d43e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbf46eac4888d4e16cfc6d6b3a416b50') in 0.003849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/VM/Processor/Processor_Coroutines.cs
+  artifactKey: Guid(aaa97e004216b41329c5edcecff9dd06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Execution/VM/Processor/Processor_Coroutines.cs using Guid(aaa97e004216b41329c5edcecff9dd06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed556c14b0695a3d12273a8a53ff8921') in 0.004590 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Expressions/AdjustmentExpression.cs
+  artifactKey: Guid(c494a9ff07b4f47f69bf840276bc16c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Expressions/AdjustmentExpression.cs using Guid(c494a9ff07b4f47f69bf840276bc16c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58590d97c25410249b6b15f350b8d3d8') in 0.003701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Options/ColonOperatorBehaviour.cs
+  artifactKey: Guid(10dd09e5e726b415bb24bc6eada8c8ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Options/ColonOperatorBehaviour.cs using Guid(10dd09e5e726b415bb24bc6eada8c8ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e0b1482c5daca45dec603fa2d4fd1b5c') in 0.003793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Statements/FunctionCallStatement.cs
+  artifactKey: Guid(01dd56b964b0444d9be30c32362e0f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Statements/FunctionCallStatement.cs using Guid(01dd56b964b0444d9be30c32362e0f12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8653a5c21e640faa68e89f61785a537e') in 0.003586 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Statements/WhileStatement.cs
+  artifactKey: Guid(3857a0c186ff6400896fe8d16e00c457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Tree/Statements/WhileStatement.cs using Guid(3857a0c186ff6400896fe8d16e00c457) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c375f15143b103aa1647a6169f931be2') in 0.004101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/Converters/ClrToScriptConversions.cs
+  artifactKey: Guid(8987bd245f18a47329890d8e91c3201e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Fungus/Thirdparty/FungusLua/Thirdparty/MoonSharp/Interpreter/Interop/Converters/ClrToScriptConversions.cs using Guid(8987bd245f18a47329890d8e91c3201e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43acc32111a5db479546c569206a2f07') in 0.004019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.397 seconds
-Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.327 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
@@ -216,48 +2232,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.708 seconds
-Domain Reload Profiling: 1102ms
-	BeginReloadAssembly (135ms)
+- Finished resetting the current domain, in  0.760 seconds
+Domain Reload Profiling: 1085ms
+	BeginReloadAssembly (109ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (36ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (192ms)
-		LoadAssemblies (236ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (208ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (33ms)
-			TypeCache.Refresh (15ms)
-				TypeCache.ScanAssembly (8ms)
-			ScanForSourceGeneratedMonoScriptInfo (8ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (4ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (9ms)
-	FinalizeReload (708ms)
+	FinalizeReload (761ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (369ms)
+		SetupLoadedEditorAssemblies (362ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (38ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
-Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3965 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (0.6 MB). Loaded Objects now: 4418.
-Memory consumption went from 147.8 MB to 147.2 MB.
-Total: 2.697700 ms (FindLiveObjects: 0.205500 ms CreateObjectMapping: 0.103600 ms MarkObjects: 2.137300 ms  DeleteObjects: 0.249800 ms)
+Unloading 3953 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (38.7 KB). Loaded Objects now: 4431.
+Memory consumption went from 145.0 MB to 144.9 MB.
+Total: 2.792700 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.133000 ms MarkObjects: 2.369500 ms  DeleteObjects: 0.063800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -275,63 +2289,75 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 178488.482539 seconds.
-  path: Assets/Fungus/Textures/ContinueIcon.png
-  artifactKey: Guid(226248ac6f184e448af731df91b91958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Textures/ContinueIcon.png using Guid(226248ac6f184e448af731df91b91958) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5314c852a2ea739decfbfe63adbe6514') in 0.070696 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Fungus/Textures/CreatedWith.psd
-  artifactKey: Guid(7adcbbe62d6554d81affcab2c56ad5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Textures/CreatedWith.psd using Guid(7adcbbe62d6554d81affcab2c56ad5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f629fddb859fbfa84578d5ef29ac42ea') in 0.017525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Fungus/Textures/HistoryIcon.png
-  artifactKey: Guid(94b4465d12d983b45a5c1af59318e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Textures/HistoryIcon.png using Guid(94b4465d12d983b45a5c1af59318e72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af60129a162adcb6a9ba0fbefa51b18b') in 0.016503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Fungus/Textures/FungusLogo.png
-  artifactKey: Guid(1b656a189e6154422a74e05a56c3f245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Textures/FungusLogo.png using Guid(1b656a189e6154422a74e05a56c3f245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c8fad259d4284d780a8f7059781939') in 0.021703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Fungus/Textures/GreyButton.png
-  artifactKey: Guid(9bdedfa4650174106a3115624f193b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Textures/GreyButton.png using Guid(9bdedfa4650174106a3115624f193b99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b5e1d48c7693ea34faaeea4ecae458') in 0.014567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.451763 seconds.
-  path: Assets/Fungus/Textures/Mushroom.png
-  artifactKey: Guid(ea8f56c43254d41728f5ac4e8299b6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Textures/Mushroom.png using Guid(ea8f56c43254d41728f5ac4e8299b6c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2edded6a0ecbd259106459f0c20eab81') in 0.009829 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 1.296220 seconds.
-  path: Assets/Fungus/Textures/OptionButtonPressed.png
-  artifactKey: Guid(2e33a3f531b6adc4f9d8a99c83e2ba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fungus/Textures/OptionButtonPressed.png using Guid(2e33a3f531b6adc4f9d8a99c83e2ba2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b913f9a72be7f7f221a9bd6bd3f49951') in 0.013086 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.325 seconds
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.705 seconds
+Domain Reload Profiling: 1028ms
+	BeginReloadAssembly (113ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (211ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (705ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (347ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3954 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (36.2 KB). Loaded Objects now: 4434.
+Memory consumption went from 147.2 MB to 147.1 MB.
+Total: 3.203600 ms (FindLiveObjects: 0.258200 ms CreateObjectMapping: 0.202100 ms MarkObjects: 2.693700 ms  DeleteObjects: 0.048400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 43b350a4d6e6d1791af0b5038c4bea17 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
