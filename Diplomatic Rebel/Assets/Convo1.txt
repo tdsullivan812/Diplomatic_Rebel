@@ -1,8 +1,9 @@
-Test Dialogue Mushroom: Now we're having a conversation.
-Test Dialogue Mushroom: It's just like the dialogue that appeared earlier, but we loaded it from a single text file.
-Test Dialogue Mushroom: This will be really convenient for iterating upon the dialogue script:
-Test Dialogue Mushroom: Just edit the dialogue file, save it, and our Fungus blocks will automatically read the updated dialogue.
-Ariana ArianaHead: Now we're using multiple characters to have the conversation.
-Ariana ArianaHead: Using a certain syntax, we can change the character talking and the portrait used.
-Mother MotherHead: Like this!
-Bibi Jaan BibiJaanHead: We can choose any character we want to show their portrait.
+Test Dialogue: Now we're having a conversation.
+Test Dialogue: It's just like the dialogue that appeared earlier, but we loaded it from a single text file.
+Test Dialogue: This will be really convenient for iterating upon the dialogue script:
+Test Dialogue: Just edit the dialogue file, save it, and our Fungus blocks will automatically read the updated dialogue.
+Ariana ArianaHead Left: Now we're using multiple characters to have the conversation.
+Ariana: Using a certain syntax, we can change the character talking and the portrait used.
+Mother MotherSprite Right: Like this!
+Ariana hide nowait:
+Bibi Jaan BibiJaanSprite Left: We can choose any character we want to show their portrait.
