@@ -8,10 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ApartmentScene.unity
     guid: 6c57f4aba47b37443b07731f7b406866
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SchoolScene.unity
     guid: c850ee8c3b14cc8459e7e186857cf567
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MetaphysicalScene.unity
     guid: 20ecb208746ccc6489bdabb7036c41ae
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: be4089703f95c0e458caf6a3e5bf4657,
+      type: 2}
+    com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
+      guid: e986356d2749c8c49aac0a719c2d812f, type: 2}

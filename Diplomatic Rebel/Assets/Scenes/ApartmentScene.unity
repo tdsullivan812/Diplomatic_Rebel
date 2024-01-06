@@ -2420,6 +2420,7 @@ MonoBehaviour:
   soundEffect: {fileID: 0}
   portraits:
   - {fileID: 21300000, guid: 524ef64c63bfa604da27591eef5a46df, type: 3}
+  - {fileID: 21300000, guid: e13f5b5ff63d470469e99e980da780d3, type: 3}
   - {fileID: 21300000, guid: 08f25ae630264574581f681c2ba7d250, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -6602,8 +6603,6 @@ GameObject:
   - component: {fileID: 1741489385}
   - component: {fileID: 1741489384}
   - component: {fileID: 1741489388}
-  - component: {fileID: 1741489386}
-  - component: {fileID: 1741489389}
   - component: {fileID: 1741489392}
   - component: {fileID: 1741489391}
   - component: {fileID: 1741489390}
@@ -6625,6 +6624,8 @@ GameObject:
   - component: {fileID: 1741489418}
   - component: {fileID: 1741489417}
   - component: {fileID: 1741489416}
+  - component: {fileID: 1741489420}
+  - component: {fileID: 1741489419}
   m_Layer: 0
   m_Name: Main Flowchart
   m_TagString: Untagged
@@ -6738,7 +6739,7 @@ MonoBehaviour:
   waitUntilFinished: 0
   fadeColor: {r: 0, g: 0, b: 0, a: 1}
   fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
+  targetCamera: {fileID: 963194227}
   fadeTweenType: 4
   orthoSizeTweenType: 4
   posTweenType: 4
@@ -6757,7 +6758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 4
   indentLevel: 0
-  storyText: Okay, but don't wait too long!
+  storyText: Okay, but don't wait too long - Josefina and Lilli mentioned wanting
+    to plan their outfits with you before the party.
   description: 
   character: {fileID: 1446258971}
   portrait: {fileID: 21300000, guid: 6f531ad160b8a5b4bb8f16ed16475be0, type: 3}
@@ -6784,7 +6786,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 3
   indentLevel: 0
-  storyText: Hmm... I'd like to, but I need to talk to my mother first.
+  storyText: Hmm... I'd like to, but I need to talk to my parents first.
   description: 
   character: {fileID: 1470816774}
   portrait: {fileID: 21300000, guid: 16334cf069237334cb33a265e4d4a011, type: 3}
@@ -6811,7 +6813,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 2
   indentLevel: 0
-  storyText: Hey Aryanna, want to come to a party this weekend?
+  storyText: Hey Aryanna, are you planning on coming to the term party on Friday?
   description: 
   character: {fileID: 1446258971}
   portrait: {fileID: 21300000, guid: 6f531ad160b8a5b4bb8f16ed16475be0, type: 3}
@@ -6896,8 +6898,10 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1741489298}
+  selectedCommands:
+  - {fileID: 1741489292}
   variables:
   - {fileID: 1741489331}
   - {fileID: 1741489330}
@@ -7164,8 +7168,6 @@ MonoBehaviour:
   eventHandler: {fileID: 1741489315}
   commandList:
   - {fileID: 1741489388}
-  - {fileID: 1741489389}
-  - {fileID: 1741489386}
   - {fileID: 1741489317}
   suppressAllAutoSelections: 0
 --- !u!114 &1741489312
@@ -8018,7 +8020,7 @@ MonoBehaviour:
     reminisced. It was a good time. It has made me miss you and your mother though.
   description: 
   character: {fileID: 308725589}
-  portrait: {fileID: 21300000, guid: 524ef64c63bfa604da27591eef5a46df, type: 3}
+  portrait: {fileID: 21300000, guid: e13f5b5ff63d470469e99e980da780d3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8042,11 +8044,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: Don't worry! It is a bit sad, yes; he and I have lived next door since
+  storyText: Don't worry! It is a bit sad, yes; she and I have lived next door since
     before your mother was born. But we cried all our tears at the funeral.
   description: 
   character: {fileID: 308725589}
-  portrait: {fileID: 21300000, guid: 524ef64c63bfa604da27591eef5a46df, type: 3}
+  portrait: {fileID: 21300000, guid: e13f5b5ff63d470469e99e980da780d3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8101,7 +8103,7 @@ MonoBehaviour:
     recently passed away. '
   description: 
   character: {fileID: 308725589}
-  portrait: {fileID: 21300000, guid: 524ef64c63bfa604da27591eef5a46df, type: 3}
+  portrait: {fileID: 21300000, guid: e13f5b5ff63d470469e99e980da780d3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -8183,7 +8185,7 @@ MonoBehaviour:
     you always had a little cough-
   description: 
   character: {fileID: 308725589}
-  portrait: {fileID: 21300000, guid: 524ef64c63bfa604da27591eef5a46df, type: 3}
+  portrait: {fileID: 21300000, guid: e13f5b5ff63d470469e99e980da780d3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9023,9 +9025,11 @@ MonoBehaviour:
   - {fileID: 1741489375}
   - {fileID: 1741489374}
   - {fileID: 1741489373}
+  - {fileID: 1741489420}
   - {fileID: 1741489372}
   - {fileID: 1741489371}
   - {fileID: 1741489370}
+  - {fileID: 1741489419}
   - {fileID: 1741489369}
   - {fileID: 1741489368}
   - {fileID: 1741489383}
@@ -9099,8 +9103,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: I don't need to explain myself. I do not have a good feeling about it,
-    and I have made my decision, and it is final.
+  storyText: 'What''s the need for this party? We have already been invited to the
+    Noori''s party next weekend. '
   description: 
   character: {fileID: 2038939379}
   portrait: {fileID: 21300000, guid: a65b6f639a1703541aa6dc263dc0e910, type: 3}
@@ -9127,7 +9131,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 74
   indentLevel: 0
-  storyText: 'What?! Why not? '
+  storyText: Really? Can you not just allow it?
   description: 
   character: {fileID: 1470816774}
   portrait: {fileID: 21300000, guid: 16334cf069237334cb33a265e4d4a011, type: 3}
@@ -9154,7 +9158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: 'Hmm. I''m sorry Aryanna, but I cannot allow it. '
+  storyText: Hmm. I will need to speak with your father about it.
   description: 
   character: {fileID: 2038939379}
   portrait: {fileID: 21300000, guid: a65b6f639a1703541aa6dc263dc0e910, type: 3}
@@ -9181,8 +9185,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: "My friend S\xF8ren invited me. You haven't met him yet, but he's very
-    nice."
+  storyText: "I would be going with my friends S\xF8ren, Lilli, and Josefina. It
+    will also hosted by the school, so there will be staff."
   description: 
   character: {fileID: 1470816774}
   portrait: {fileID: 21300000, guid: 16334cf069237334cb33a265e4d4a011, type: 3}
@@ -9209,8 +9213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 71
   indentLevel: 0
-  storyText: Ah, Aryanna. I do not like the idea. Do I know this friend? Or their
-    parents?
+  storyText: Ah, Aryanna. I am unsure. Who is attending, and what will they be doing?
   description: 
   character: {fileID: 2038939379}
   portrait: {fileID: 21300000, guid: a65b6f639a1703541aa6dc263dc0e910, type: 3}
@@ -9264,8 +9267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: Well, some friends of mine are throwing a party this weekend, so I was
-    wondering if I could get your permission to go?
+  storyText: Well, the school is throwing the term celebration this Friday, so I
+    was wondering if I could get yours and dad's permission to go?
   description: 
   character: {fileID: 1470816774}
   portrait: {fileID: 21300000, guid: 16334cf069237334cb33a265e4d4a011, type: 3}
@@ -9779,7 +9782,7 @@ MonoBehaviour:
   storyText: It is good to hear your voices.
   description: 
   character: {fileID: 308725589}
-  portrait: {fileID: 21300000, guid: 524ef64c63bfa604da27591eef5a46df, type: 3}
+  portrait: {fileID: 21300000, guid: e13f5b5ff63d470469e99e980da780d3, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -9789,26 +9792,6 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
---- !u!114 &1741489386
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741489288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 86
-  indentLevel: 0
-  duration: 0.5
-  targetAlpha: 0
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 4
 --- !u!114 &1741489388
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -9830,26 +9813,6 @@ MonoBehaviour:
   orthoSizeTweenType: 4
   posTweenType: 3
   rotTweenType: 2
---- !u!114 &1741489389
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1741489288}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 207aecf668a0345388087ccf522f9957, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 87
-  indentLevel: 0
-  duration: 2
-  targetAlpha: 1
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  fadeTweenType: 4
 --- !u!114 &1741489390
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -10635,6 +10598,62 @@ MonoBehaviour:
   stringEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &1741489419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741489288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 113
+  indentLevel: 0
+  storyText: Give me and your father some time to consider, and then we will let
+    you know.
+  description: 
+  character: {fileID: 2038939379}
+  portrait: {fileID: 21300000, guid: a65b6f639a1703541aa6dc263dc0e910, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &1741489420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741489288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 112
+  indentLevel: 0
+  storyText: As for activities, there will be food, beverages, and music, and that's
+    pretty much it. It's a somewhat formal event, so people will be dressing up.
+  description: 
+  character: {fileID: 1470816774}
+  portrait: {fileID: 21300000, guid: 16334cf069237334cb33a265e4d4a011, type: 3}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!1 &1790871300
 GameObject:
   m_ObjectHideFlags: 0
