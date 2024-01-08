@@ -1,6 +1,6 @@
-Aryanna: Though since I'm starting to get more free time, I've been debating how to use it.
-Mother: What have you been considering?
-Aryanna: An after-school activity or club seems like it could be fun, and a good way to meet people.
-Mother: If you do that, you must select carefully - pick something that advances your future, not just a club with friends.
-Aryanna: Yes, yes, I know it has to be a good use of my time.
-Mother: Of course, you are always welcome to do more chores around the house as well.
+Aryanna AryannaHead: Though since I'm starting to get more free time, I've been debating how to use it.
+Mother MotherHead: What have you been considering?
+Aryanna AryannaHead: An after-school activity or club seems like it could be fun, and a good way to meet people.
+Mother MotherHead: If you do that, you must select carefully - pick something that advances your future, not just a club with friends.
+Aryanna AryannaHead: Yes, yes, I know it has to be a good use of my time.
+Mother MotherHead: Of course, you are always welcome to do more chores around the house as well.

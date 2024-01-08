@@ -1,5 +1,5 @@
-Aryanna: I'll get started tidying up the living room, then.
-Mother: Thank you.
+Aryanna AryannaHead: I'll get started tidying up the living room, then.
+Mother MotherHead: Thank you.
 Television: Coming up, this week on "Young Moms"! Lise looks for a new baby daddy, and Marie must choose: her fiance, or her diploma!
-Mother: Ugh, Aryanna, please turn that drivel off.
-Aryanna: Sure thing.
+Mother MotherHead: Ugh, Aryanna, please turn that drivel off.
+Aryanna AryannaHead: Sure thing.

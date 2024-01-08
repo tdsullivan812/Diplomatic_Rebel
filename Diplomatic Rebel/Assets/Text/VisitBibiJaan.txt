@@ -1,13 +1,13 @@
-Aryanna: Do you think that we should visit Bibi Jaan? It seemed like she misses you a lot.
-Mother: In a way, but for now I think it is better that we do not go.
-Aryanna: Why not? Is it because of danger?
-Mother: Not exactly. More so that it makes Bibi Jaan happy to know that we are safe here in Denmark.
-Mother: You may not remember this, but when you were around 7 or 8, I was very insistent about wanting to visit her.
-Mother: I even had flights booked. But for months, your Bibi Jaan fretted and told me she was unsure if the timing was good, if there would be unrest, and the like.
-Mother: Eventually I understood that she was worrying herself sick, scared that if we came back we wouldn't leave, and get caught up in another political upheaval.
-Mother: So I cancelled the tickets. For a while I kept suggesting visits, but I always got the same response from her. Now we don't even discuss the idea.
-Aryanna: Wow. I didn't know any of that. How does that make you feel?
-Mother: ...I do wish that she was able to see me visiting as a good thing.
-Mother: But I know that ultimately it is her way of caring, and showing us that she supports and understands the choice to remain here in Denmark.
-Aryanna: (I never really thought about how much my mother must miss her mother.)
-Aryanna: (Perhaps I should make an effort to spend more time with her.)
+Aryanna AryannaHead: Do you think that we should visit Bibi Jaan? It seemed like she misses you a lot.
+Mother MotherHead: In a way, but for now I think it is better that we do not go.
+Aryanna AryannaHead: Why not? Is it because of danger?
+Mother MotherHead: Not exactly. More so that it makes Bibi Jaan happy to know that we are safe here in Denmark.
+Mother MotherHead: You may not remember this, but when you were around 7 or 8, I was very insistent about wanting to visit her.
+Mother MotherHead: I even had flights booked. But for months, your Bibi Jaan fretted and told me she was unsure if the timing was good, if there would be unrest, and the like.
+Mother MotherHead: Eventually I understood that she was worrying herself sick, scared that if we came back we wouldn't leave, and get caught up in another political upheaval.
+Mother MotherHead: So I cancelled the tickets. For a while I kept suggesting visits, but I always got the same response from her. Now we don't even discuss the idea.
+Aryanna AryannaHead: Wow. I didn't know any of that. How does that make you feel?
+Mother MotherHead: ...I do wish that she was able to see me visiting as a good thing.
+Mother MotherHead: But I know that ultimately it is her way of caring, and showing us that she supports and understands the choice to remain here in Denmark.
+Aryanna AryannaHead: (I never really thought about how much my mother must miss her mother.)
+Aryanna AryannaHead: (Perhaps I should make an effort to spend more time with her.)

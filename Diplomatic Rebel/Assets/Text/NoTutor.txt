@@ -1,6 +1,6 @@
-Aryanna: As much as I like school and respect what Soren does, I don't think I could be a tutor.
-Mother: Really? Why not?
-Aryanna: I guess I still feel lost just trying to figure out my own priorities sometimes - I don't feel as though I would be that reliable.
-Mother: Hmm. I disagree. But if you truly think so, then reliability is something you can practice. 
-Aryanna: How should I do that?
-Mother: Well, you can start by taking more responsibilities around the house - or perhaps you could do some service in our neighborhood.
+Aryanna AryannaHead: As much as I like school and respect what Soren does, I don't think I could be a tutor.
+Mother MotherHead: Really? Why not?
+Aryanna AryannaHead: I guess I still feel lost just trying to figure out my own priorities sometimes - I don't feel as though I would be that reliable.
+Mother MotherHead: Hmm. I disagree. But if you truly think so, then reliability is something you can practice. 
+Aryanna AryannaHead: How should I do that?
+Mother MotherHead: Well, you can start by taking more responsibilities around the house - or perhaps you could do some service in our neighborhood.

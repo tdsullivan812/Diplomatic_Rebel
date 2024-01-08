@@ -1,6 +1,6 @@
-Aryanna: Mathematics has probably been giving me the most trouble. 
-Aryanna: I get good grades, but it doesn’t come naturally- I just get by on being very thorough.
-Mother: Being thorough is a very good thing for maths! It is all about following logical steps to their conclusion.
-Mother: You know, I was pretty good at maths when I was your age - my father would ask me to do figures for him sometimes.
-Aryanna: Really? I didn’t know that. Did you ever do advanced math?
-Mother: …alas, no. I never had the chance to. Things became difficult when I was entering secondary school.
+Aryanna AryannaHead: Mathematics has probably been giving me the most trouble. 
+Aryanna AryannaHead: I get good grades, but it doesn’t come naturally- I just get by on being very thorough.
+Mother MotherHead: Being thorough is a very good thing for maths! It is all about following logical steps to their conclusion.
+Mother MotherHead: You know, I was pretty good at maths when I was your age - my father would ask me to do figures for him sometimes.
+Aryanna AryannaHead: Really? I didn’t know that. Did you ever do advanced math?
+Mother MotherHead: …alas, no. I never had the chance to. Things became difficult when I was entering secondary school.

@@ -1,7 +1,7 @@
-Aryanna: You know, I think it’s good to try new things. eating New foods, listening to new music, meeting new people.
-Mother: I am glad you are so open-minded. But sometimes it’s good to rely on traditions too.
-Aryanna: have you tried anything new recently, Mother?
-Mother: I suppose I’ve started reading a new book. One of those action novels.
-Mother: …or more accurately, I bought the book and it’s sitting on my nightstand. 
-Aryanna: …maybe you could start with trying to let me go to the dance?
-Mother: ha, you are clever. 
+Aryanna AryannaHead: You know, I think it’s good to try new things. eating New foods, listening to new music, meeting new people.
+Mother MotherHead: I am glad you are so open-minded. But sometimes it’s good to rely on traditions too.
+Aryanna AryannaHead: have you tried anything new recently, Mother?
+Mother MotherHead: I suppose I’ve started reading a new book. One of those action novels.
+Mother MotherHead: …or more accurately, I bought the book and it’s sitting on my nightstand. 
+Aryanna AryannaHead: …maybe you could start with trying to let me go to the dance?
+Mother MotherHead: ha, you are clever. 

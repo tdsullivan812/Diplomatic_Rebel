@@ -1,6 +1,6 @@
-Aryanna: Did I hear Bibi Jaan right when she said that she partied a lot when she was my age?
-Mother: Yes, but don’t be misled. Partying means something very different to her.
-Aryanna: What do you mean?
-Mother: She partied in an Afghan way. Not like they party in Denmark.
-Aryanna: I wouldn’t know the difference, seeing as I’ve never been to either kind.
-Mother: Even so, Bibi Jaan is not in a position to give advice on the matter. 
+Aryanna AryannaHead: Did I hear Bibi Jaan right when she said that she partied a lot when she was my age?
+Mother MotherHead: Yes, but don’t be misled. Partying means something very different to her.
+Aryanna AryannaHead: What do you mean?
+Mother MotherHead: She partied in an Afghan way. Not like they party in Denmark.
+Aryanna AryannaHead: I wouldn’t know the difference, seeing as I’ve never been to either kind.
+Mother MotherHead: Even so, Bibi Jaan is not in a position to give advice on the matter. 

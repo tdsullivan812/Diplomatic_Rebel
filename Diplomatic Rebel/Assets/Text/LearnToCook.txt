@@ -1,8 +1,8 @@
-Aryanna: You know, I've been considering learning to cook. 
-Mother: What do you mean? You already know the basics.
-Aryanna: Yes, but I feel like I just know how to prepare food. I've never really tried making entire meals.
-Aryanna: I was watching a cooking  program recently, and the way the host talked about the food made me see it in a whole new way.
-Mother: How so?
-Aryanna: That every meal you cook creates an experience for the people eating it, an experience that is only possible thanks to decades, centuries even, of people building on culinary tradition.
-Mother: That's a very interesting way to look at it. I do agree food connects us to the past - I still think about my mother when I cook.
-Mother: But I'm still not sure why you would want to put extra time into learning something that you already do anyway.
+Aryanna AryannaHead: You know, I've been considering learning to cook. 
+Mother MotherHead: What do you mean? You already know the basics.
+Aryanna AryannaHead: Yes, but I feel like I just know how to prepare food. I've never really tried making entire meals.
+Aryanna AryannaHead: I was watching a cooking  program recently, and the way the host talked about the food made me see it in a whole new way.
+Mother MotherHead: How so?
+Aryanna AryannaHead: That every meal you cook creates an experience for the people eating it, an experience that is only possible thanks to decades, centuries even, of people building on culinary tradition.
+Mother MotherHead: That's a very interesting way to look at it. I do agree food connects us to the past - I still think about my mother when I cook.
+Mother MotherHead: But I'm still not sure why you would want to put extra time into learning something that you already do anyway.

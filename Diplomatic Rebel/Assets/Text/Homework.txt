@@ -1,6 +1,6 @@
-Aryanna: I already did my homework for the day during my study period.
-Mother: Excellent. And have you reviewed your answers?
-Aryanna: No, not yet. I'll be sure to do so later tonight. 
-Mother: Why not now?
-Aryanna: It's good to wait a bit, to help me look at the assignment with new eyes.
-Mother: Fair enough.
+Aryanna AryannaHead: I already did my homework for the day during my study period.
+Mother MotherHead: Excellent. And have you reviewed your answers?
+Aryanna AryannaHead: No, not yet. I'll be sure to do so later tonight. 
+Mother MotherHead: Why not now?
+Aryanna AryannaHead: It's good to wait a bit, to help me look at the assignment with new eyes.
+Mother MotherHead: Fair enough.

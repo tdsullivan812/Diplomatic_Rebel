@@ -1,7 +1,7 @@
-Aryanna: There’s not much to talk about besides school, school, and more school.
-Aryanna: This year is harder than my first year of secondary school, but I also enjoy the classes more. 
-Mother: That is good. Do you feel you are being taught well by your instructors?
-Aryanna: Mostly, yes. Though some of them are more dull than others, which makes it hard to remember what they say.
-Mother: You still need to try - better to be bored and educated than entertained and…
-Aryanna: Stupid?
-Mother: I was going to say ignorant. But you could call failing to pay attention in class stupid, yes.
+Aryanna AryannaHead: There’s not much to talk about besides school, school, and more school.
+Aryanna AryannaHead: This year is harder than my first year of secondary school, but I also enjoy the classes more. 
+Mother MotherHead: That is good. Do you feel you are being taught well by your instructors?
+Aryanna AryannaHead: Mostly, yes. Though some of them are more dull than others, which makes it hard to remember what they say.
+Mother MotherHead: You still need to try - better to be bored and educated than entertained and…
+Aryanna AryannaHead: Stupid?
+Mother MotherHead: I was going to say ignorant. But you could call failing to pay attention in class stupid, yes.

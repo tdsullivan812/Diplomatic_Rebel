@@ -1,6 +1,6 @@
-Aryanna: You know, going to the party would mean a lot to me.
-Mother: Mmhm.
-Aryanna: And I would be very well behaved- I could even come home early, if you want.
-Mother: I am sure you would be.
-Aryanna: ...You know, since it's a school event, it's going to be a supervised by adults.
-Mother: Is it now? That is good to know. We will see what your father says when he gets home.
+Aryanna AryannaHead: You know, going to the party would mean a lot to me.
+Mother MotherHead: Mmhm.
+Aryanna AryannaHead: And I would be very well behaved- I could even come home early, if you want.
+Mother MotherHead: I am sure you would be.
+Aryanna AryannaHead: ...You know, since it's a school event, it's going to be a supervised by adults.
+Mother MotherHead: Is it now? That is good to know. We will see what your father says when he gets home.

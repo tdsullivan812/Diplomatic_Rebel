@@ -1,8 +1,8 @@
-Aryanna: Here, I'll help you chop some of the eggplant.
-Mother: Very well. Here's a knife.
-Aryanna: ...
-Mother: ...
-Aryanna: I've never noticed how fast you work in the kitchen, Mom. It's pretty impressive!
-Mother: Hm. I've never given it much thought. I've made the dish so many times, it feels like my hands move on their own.
-Aryanna: I wish my hands would do that for homework.
-Mother: Ha! It only works for the cooking, unfortunately.
+Aryanna AryannaHead: Here, I'll help you chop some of the eggplant.
+Mother MotherHead: Very well. Here's a knife.
+Aryanna AryannaHead: ...
+Mother MotherHead: ...
+Aryanna AryannaHead: I've never noticed how fast you work in the kitchen, Mom. It's pretty impressive!
+Mother MotherHead: Hm. I've never given it much thought. I've made the dish so many times, it feels like my hands move on their own.
+Aryanna AryannaHead: I wish my hands would do that for homework.
+Mother MotherHead: Ha! It only works for the cooking, unfortunately.

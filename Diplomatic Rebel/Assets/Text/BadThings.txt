@@ -1,9 +1,9 @@
-Aryanna: Could you tell me some of the bad things? 
-Mother: Oh, Aryanna. I don't know if I ought to.
-Aryanna: It's important I know even the difficult truths. 
-Aryanna: I don't want to just be hearing stuff second-hand from the news, or people who have never been there.
-Mother: You might be right. But I do not think my heart is ready.
-Aryanna: But-
-Mother: I am glad that you are curious about Afghanistan. But I do not want you to resent a place I love, even if it has not always been kind to us.
-Aryanna: I don't want to be either. I know that there are lots of good things too.
-Mother: I know you do. But for just a little bit longer, I want to believe Afghanistan brings you only happy thoughts.
+Aryanna AryannaHead: Could you tell me some of the bad things? 
+Mother MotherHead: Oh, Aryanna. I don't know if I ought to.
+Aryanna AryannaHead: It's important I know even the difficult truths. 
+Aryanna AryannaHead: I don't want to just be hearing stuff second-hand from the news, or people who have never been there.
+Mother MotherHead: You might be right. But I do not think my heart is ready.
+Aryanna AryannaHead: But-
+Mother MotherHead: I am glad that you are curious about Afghanistan. But I do not want you to resent a place I love, even if it has not always been kind to us.
+Aryanna AryannaHead: I don't want to be either. I know that there are lots of good things too.
+Mother MotherHead: I know you do. But for just a little bit longer, I want to believe Afghanistan brings you only happy thoughts.

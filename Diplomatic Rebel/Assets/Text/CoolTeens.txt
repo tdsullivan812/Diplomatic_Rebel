@@ -1,10 +1,10 @@
-Aryanna: I don't know, those teens seem cool to me. They've got lots of friends and adorable babies.
-Mother: Aryanna, you should know better! There's nothing "cool" about their behavior.
-Aryanna: You might not agree with their choices, but it doesn't mean they're bad for making them. It's not like they're hurting anyone.
-Mother: I'm sure their own mothers would disagree. Any mother would be hurt to see their daughter with no education, no job, and no husband to help raise a child.
-Aryanna: So you're saying that if these women had just gotten married first, then you'd be fine with it? Seems pretty arbitrary to me.
-Mother: That is not what I said at all! I think you are trying to make me seem a close-minded person.
-Aryanna: You said yourself you thought they were immoral. I wouldn't call that acceptance.
-Mother: Do not back talk me like that! We are done discussing the matter. 
-Mother: And do not expect to go to that party - not until you show me some better judgment.
-Aryanna: (Oh no, I think I've made her angry...).
+Aryanna AryannaHead: I don't know, those teens seem cool to me. They've got lots of friends and adorable babies.
+Mother MotherHead: Aryanna, you should know better! There's nothing "cool" about their behavior.
+Aryanna AryannaHead: You might not agree with their choices, but it doesn't mean they're bad for making them. It's not like they're hurting anyone.
+Mother MotherHead: I'm sure their own mothers would disagree. Any mother would be hurt to see their daughter with no education, no job, and no husband to help raise a child.
+Aryanna AryannaHead: So you're saying that if these women had just gotten married first, then you'd be fine with it? Seems pretty arbitrary to me.
+Mother MotherHead: That is not what I said at all! I think you are trying to make me seem a close-minded person.
+Aryanna AryannaHead: You said yourself you thought they were immoral. I wouldn't call that acceptance.
+Mother MotherHead: Do not back talk me like that! We are done discussing the matter. 
+Mother MotherHead: And do not expect to go to that party - not until you show me some better judgment.
+Aryanna AryannaHead: (Oh no, I think I've made her angry...).

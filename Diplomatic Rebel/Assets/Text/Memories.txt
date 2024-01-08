@@ -1,15 +1,15 @@
-Aryanna: What sort of memories do you have of your family's meals?
-Mother: Let's see... oh, I have one, but it's very embarassing!
-Aryanna: Even better! Tell me! 
-Mother: When I was perhaps a year older than you, my mother and I were cooking for everyone: cousins, aunts, uncles, the like.
-Mother: We were celebrating my cousin's engagement, we had less than an hour until everyone arrived, and... and... I dropped the lamb for the pulao!
-Aryanna: No! 
-Mother: Yes! I dropped the lamb. All of it, on the floor.
-Aryanna: What did Bibi Jaan say?
-Mother: Nothing. We just looked at each other for several seconds. Then, I said "I'm going out to get more lamb," and Bibi Jaan just nodded.
-Mother: By the time I got back from the market, people were arriving, so I had to sneak through the back door into the kitchen to finish.
-Mother: My mother went out and covered for me by entertaining the guests. I don't know exactly what she did, but the whole time I was finishing the pulao, I heard everyone in the living room laughing. 
-Aryanna: So no one knew anything had gone wrong?
-Mother: No! And you know what everyone said to me afterward? That the lamb was deliciously soft, and they could tell I had been cooking it all afternoon.
-Aryanna: Haha! I don't think I would have been able to keep a straight face.
-Mother: I think I had nightmares that night that somehow they would all find out! But they never did, and years later I can laugh about it.
+Aryanna AryannaHead: What sort of memories do you have of your family's meals?
+Mother MotherHead: Let's see... oh, I have one, but it's very embarassing!
+Aryanna AryannaHead: Even better! Tell me! 
+Mother MotherHead: When I was perhaps a year older than you, my mother and I were cooking for everyone: cousins, aunts, uncles, the like.
+Mother MotherHead: We were celebrating my cousin's engagement, we had less than an hour until everyone arrived, and... and... I dropped the lamb for the pulao!
+Aryanna AryannaHead: No! 
+Mother MotherHead: Yes! I dropped the lamb. All of it, on the floor.
+Aryanna AryannaHead: What did Bibi Jaan say?
+Mother MotherHead: Nothing. We just looked at each other for several seconds. Then, I said "I'm going out to get more lamb," and Bibi Jaan just nodded.
+Mother MotherHead: By the time I got back from the market, people were arriving, so I had to sneak through the back door into the kitchen to finish.
+Mother MotherHead: My mother went out and covered for me by entertaining the guests. I don't know exactly what she did, but the whole time I was finishing the pulao, I heard everyone in the living room laughing. 
+Aryanna AryannaHead: So no one knew anything had gone wrong?
+Mother MotherHead: No! And you know what everyone said to me afterward? That the lamb was deliciously soft, and they could tell I had been cooking it all afternoon.
+Aryanna AryannaHead: Haha! I don't think I would have been able to keep a straight face.
+Mother MotherHead: I think I had nightmares that night that somehow they would all find out! But they never did, and years later I can laugh about it.

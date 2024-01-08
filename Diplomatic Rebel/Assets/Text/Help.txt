@@ -1,3 +1,3 @@
-Aryanna: Is there anything I can help you with to get ready for dinner?
-Aryanna: It seems like you have a lot more vegetables to cut.
-Mother: How thoughtful! Well, that would certainly be helpful, but I would also be very appreciative if you started tidying up the living room.
+Aryanna AryannaHead: Is there anything I can help you with to get ready for dinner?
+Aryanna AryannaHead: It seems like you have a lot more vegetables to cut.
+Mother MotherHead: How thoughtful! Well, that would certainly be helpful, but I would also be very appreciative if you started tidying up the living room.

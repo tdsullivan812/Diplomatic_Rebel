@@ -1,9 +1,9 @@
-Aryanna: I do like hanging out with my friends from school. Soren, Karla, Lilli, Josefine...
-Mother: oh, I remember her - I liked her, she was polite. 
-Aryanna: we have lots of classes together, so we get lots of chances to talk. You wouldn’t know, but she’s very funny! 
-Mother: you mean she tells good jokes?
-Aryanna: more like she draws great cartoons, like the kind you could see in the paper.
-Mother: Oh. That sounds unique.
-Mother: So all of these friends, they are Danish?
-Aryanna: ...yes, those friends are all Danish. But they aren't like what you see on those TV shows. They're diligent and thoughtful.
-Mother: That is good to hear.
+Aryanna AryannaHead: I do like hanging out with my friends from school. Soren, Karla, Lilli, Josefine...
+Mother MotherHead: oh, I remember her - I liked her, she was polite. 
+Aryanna AryannaHead: we have lots of classes together, so we get lots of chances to talk. You wouldn’t know, but she’s very funny! 
+Mother MotherHead: you mean she tells good jokes?
+Aryanna AryannaHead: more like she draws great cartoons, like the kind you could see in the paper.
+Mother MotherHead: Oh. That sounds unique.
+Mother MotherHead: So all of these friends, they are Danish?
+Aryanna AryannaHead: ...yes, those friends are all Danish. But they aren't like what you see on those TV shows. They're diligent and thoughtful.
+Mother MotherHead: That is good to hear.

@@ -1,4 +1,4 @@
-Aryanna: My friends aren't like those teenagers on those TV shows, you know. They have ordinary hobbies.
-Mother: Like what?
-Aryanna: My friend Lilli plays the violin quite well. And Soren does tutoring every Wednesday.
-Mother: Really? They sound lovely.
+Aryanna AryannaHead: My friends aren't like those teenagers on those TV shows, you know. They have ordinary hobbies.
+Mother MotherHead: Like what?
+Aryanna AryannaHead: My friend Lilli plays the violin quite well. And Soren does tutoring every Wednesday.
+Mother MotherHead: Really? They sound lovely.

@@ -1,5 +1,5 @@
-Aryanna: So how is Bibi Jaan doing?
-Mother: She seems to be in good spirits, all things considered. Aside from her friend passing, she seem's like she's okay.
-Mother: You know how it is, dear. When you get to her age you're lucky to have friends at all. And Bibi Jaan has been blessed with many friends in Afghanistan.
-Aryanna: Is there a reason why she's so popular?
-Mother: Well, she's always been rather gregarious, and when your grandfather passed, she started spending even more time with her friends.
+Aryanna AryannaHead: So how is Bibi Jaan doing?
+Mother MotherHead: She seems to be in good spirits, all things considered. Aside from her friend passing, she seem's like she's okay.
+Mother MotherHead: You know how it is, dear. When you get to her age you're lucky to have friends at all. And Bibi Jaan has been blessed with many friends in Afghanistan.
+Aryanna AryannaHead: Is there a reason why she's so popular?
+Mother MotherHead: Well, she's always been rather gregarious, and when your grandfather passed, she started spending even more time with her friends.
