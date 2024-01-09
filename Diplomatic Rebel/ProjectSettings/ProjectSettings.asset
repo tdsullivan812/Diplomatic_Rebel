@@ -159,6 +159,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.ARTLife.DiplomaticRebel
+    Standalone: com.ARTLife.Diplomatic-Rebel
     iPhone: com.ARTLife.Diplomatic-Rebel
   buildNumber:
     Standalone: 0
